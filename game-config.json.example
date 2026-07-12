@@ -9,5 +9,8 @@
     "tone": "gritty",
     "dice": "hidden",
     "menus": "major"
+  },
+  "cloud": {
+    "url": null
   }
 }

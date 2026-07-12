@@ -44,6 +44,7 @@ echo "Installing Adventure Mode into: $VAULT"
 sync_system "$REPO_DIR/GAME.md"         "$VAULT/GAME.md"
 sync_system "$REPO_DIR/scripts/roll.sh" "$VAULT/scripts/roll.sh"
 chmod +x "$VAULT/scripts/roll.sh"
+sync_system "$REPO_DIR/scripts/vault-sync.mjs" "$VAULT/scripts/vault-sync.mjs"
 for t in "$REPO_DIR/obsidian-templates/"*.md; do
   sync_system "$t" "$VAULT/System/Templates/$(basename "$t")"
 done

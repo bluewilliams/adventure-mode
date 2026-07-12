@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0",
+  "activeGame": null,
+  "player": {
+    "name": null,
+    "limits": []
+  },
+  "defaults": {
+    "tone": "gritty",
+    "dice": "hidden",
+    "menus": "major"
+  }
+}

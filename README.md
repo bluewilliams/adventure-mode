@@ -56,13 +56,36 @@ YourAdventureVault/
 
 **The GM/ folder is honor system.** Secrets, villain agendas, hidden clocks, and the dice ledger live there so the GM can keep a persistent world behind the curtain. Peek and you only rob yourself. The dice ledger (`GM/Rolls.md`) is the exception: read it whenever you like; that is what it is for.
 
+**Spoiler-proofing your screen**: secret rolls write silently to the ledger, GM file names never reveal content, and the GM avoids narrating its secret bookkeeping. Two one-time settings finish the job: keep thinking collapsed (or off) while playing, and in Obsidian add `GM` to Settings > Files & Links > Excluded files so search, graph view, and backlinks never surface a spoiler by accident.
+
 ## Ships with
 
-**WHITEOUT** - a survival-horror reference pack. Northern Minnesota, five weeks after the evacuation convoys stopped, deep winter. The dead slow down in the cold. Spring is coming.
+- **WHITEOUT** - survival horror. Northern Minnesota, five weeks after the evacuation convoys stopped, deep winter. The dead slow down in the cold. Spring is coming.
+- **OMERTA** - crime drama. Brickport, NJ, 1979. Start as an associate on the fringe of the Marchetti family with five contacts and a first job; the ladder goes up forever, and so does the drop. Build your standing, or your own family.
+
+## Many games, one vault
+
+Every campaign lives in its own `Games/{game}/` folder with its own character, NPCs, secrets, and state. Nothing bleeds between games. Run the zombie winter and the mob ascension side by side:
+
+- **Resume**: the GM resumes your active game automatically and mentions any others at the table.
+- **Switch**: say `tavern` (or `switch`) anytime: you get a numbered menu of every campaign with where-you-left-off lines, plus options to start fresh. Switching checkpoints the outgoing game first; nothing is ever lost mid-scene.
+- **Start new**: say `new game` to pick from `Packs/`, or `session zero` to build an original world with the GM interviewing you - genre, tone, factions, villains, dials - and compiling it into a pack you (or anyone) can replay and share.
+
+## Adding worlds (no repo required)
+
+`Packs/` in YOUR vault is user space. The repo's packs are just starters copied in at install. To add a world:
+
+- **Drop a folder in.** Any pack folder placed in `Packs/` is immediately playable: `pack.md` plus a `gm/` folder is the whole format.
+- **Build one at the table.** Session Zero output compiles straight into `Packs/{name}/`.
+- **Share by copying.** Zip a pack, send it to a friend, they drop it in their vault. Contributing packs back to the repo is welcome but never needed.
 
 ## Tone
 
 Default is gritty and adult: real violence with real aftermath, moral ambiguity, scarcity, grief, romance written like grown-up fiction. Packs can dial to heroic or pulp. Player content limits, once stated, are respected absolutely.
+
+## Plays nicely with memory-mode
+
+If you also run [memory-mode-portable](https://github.com/bluewilliams/memory-mode-portable) (or any global memory system), Adventure Mode suspends it inside game vaults: the vault's CLAUDE.md declares precedence, so game events never leak into your work vault, session notes, or user profile. Working ON this repo is a normal project; playing IN a vault is hermetically sealed. The two systems share DNA but never share state.
 
 ## Playing on other surfaces
 

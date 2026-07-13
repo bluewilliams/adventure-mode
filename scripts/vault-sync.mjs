@@ -7,7 +7,9 @@
  *   node scripts/vault-sync.mjs push [--game KEY] [--force]
  *   node scripts/vault-sync.mjs pull [--game KEY] [--out DIR] [--force]
  *
- * Defaults: vault ~/Documents/AdventureVault, url = production /mcp.
+ * Defaults: vault ~/Documents/AdventureVault, url = game-config.json cloud.url.
+ * Auth: the cloud vault requires a personal sync token (from {origin}/sync-token);
+ * supply it via game-config.json cloud.token, --token, or AM_SYNC_TOKEN.
  * Push refuses to overwrite existing cloud files without --force; pull
  * refuses to overwrite local files without --force (use --out for backups).
  * Synced set: _Tavern.md, game-config.json, Games/** and user-authored Packs/**.
@@ -28,19 +30,22 @@ const has = (name) => args.includes(name);
 const VAULT =
   opt("--vault") ??
   (existsSync(join(process.cwd(), "GAME.md")) ? process.cwd() : join(homedir(), "Documents", "AdventureVault"));
-// Cloud URL: --url flag, else game-config.json's cloud.url.
-function configUrl() {
+// Cloud URL + token: --url/--token flags, else game-config.json's cloud.url /
+// cloud.token, else AM_SYNC_TOKEN env (token only).
+function cloudConfig() {
   try {
-    return JSON.parse(readFileSync(join(VAULT, "game-config.json"), "utf8"))?.cloud?.url ?? null;
+    return JSON.parse(readFileSync(join(VAULT, "game-config.json"), "utf8"))?.cloud ?? {};
   } catch {
-    return null;
+    return {};
   }
 }
-const URL_ = opt("--url") ?? configUrl();
+const CLOUD = cloudConfig();
+const URL_ = opt("--url") ?? CLOUD.url;
 if (!URL_) {
   console.error("no cloud URL: set cloud.url in game-config.json or pass --url");
   process.exit(1);
 }
+const TOKEN = opt("--token") ?? CLOUD.token ?? process.env.AM_SYNC_TOKEN ?? null;
 const GAME = opt("--game");
 
 let sessionId = null;
@@ -53,10 +58,19 @@ async function rpc(method, params = {}, notification = false) {
     headers: {
       "Content-Type": "application/json",
       Accept: "application/json, text/event-stream",
+      ...(TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {}),
       ...(sessionId ? { "mcp-session-id": sessionId } : {}),
     },
     body: JSON.stringify(body),
   });
+  if (res.status === 401) {
+    console.error(
+      "cloud vault requires a sync token: get one at " +
+        new URL("/sync-token", URL_).origin +
+        "/sync-token, then put it in game-config.json under cloud.token (or pass --token / set AM_SYNC_TOKEN)",
+    );
+    process.exit(1);
+  }
   sessionId = res.headers.get("mcp-session-id") ?? sessionId;
   if (notification) return null;
   const raw = await res.text();

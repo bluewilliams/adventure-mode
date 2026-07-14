@@ -49,3 +49,10 @@ conditions: []
 ## What they know
 
 <!-- Companions cannot act on information they do not have. Track it. -->
+
+## Advancement
+
+<!-- Companions grow on the same engine (GAME.md, Progression): their own
+     milestones, or the player investing an advance in them. -->
+
+- {YYYY-MM-DD} {milestone or advance, with the moment that earned it}

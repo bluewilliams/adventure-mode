@@ -55,3 +55,16 @@ conditions: []
 ## Scars and history
 
 <!-- Permanent marks: healed wounds, debts, reputations. Append, never rewrite. -->
+
+## Advancement
+
+<!-- Milestones earned and advances spent (GAME.md, Progression). An audit
+     trail of growth: every point of competence shows where it came from. -->
+
+### Milestones
+
+- {YYYY-MM-DD} {what was survived/achieved} - [[Log/{date} ({n})]] - {spent | unspent}
+
+### Advances taken
+
+- {YYYY-MM-DD} {new trait "..." | honed "..." to +3 | Aptitude +1 (2 advances) | scar retired | invested in {companion}}

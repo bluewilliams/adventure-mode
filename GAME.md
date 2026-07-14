@@ -117,16 +117,34 @@ conditions:
     acquired: "Log/2026-07-12 (1).md"
 ```
 
-- Severity ladder: **scratch** (color, no teeth) -> **hurting** (disadvantage on related actions) -> **serious** (capability removed, usually clocked) -> **critical** (dying; untreated clock runs to death).
+- Severity ladder with FIXED teeth - never invent penalties mid-fight:
+  - **scratch**: color, no mechanical teeth. Heals on its own by the next full rest.
+  - **hurting**: **-2 on rolls the wound plausibly affects**. Recovery clock: ~2-3 days rested, longer if pushed.
+  - **serious**: a capability is REMOVED (no sprinting, no fine work with that hand, can't hear) AND -2 on related rolls. Requires real treatment to start recovering; untreated, it carries a worsening clock toward critical.
+  - **critical**: dying. A death clock starts (default 3 ticks, scene-scale) in `State.md`. Real intervention (skilled care + supplies) stops it; stabilized critical becomes serious with a long recovery.
+- **What kills a character**: a critical death clock reaching zero, new serious-or-worse harm taken while already critical, or an unambiguous fictional certainty (the fall, the point-blank round, the ice). Nothing else does - and these always can. The player is entitled to know this ladder out of fiction; harm rules are never a secret.
+- **Death is death.** The sheet is finalized, the finale/epilogue rules apply (Campaign length section), the Tavern moves the game or character to Fallen, and the world keeps their consequences. Packs may override death rules via their manifest (`death rules` dial); the default is the above.
+- **Scars**: a serious or critical condition that heals may leave a permanent scar on the sheet - a narrative mark with a small mechanical edge or cost ("Cold-scarred hands: -1 fine work in freezing air; +2 resisting cold-fear"). Scars are biography, written at recovery time, never removed.
 - Narrate the wound, never the number. "You can't put weight on the leg and you're leaving a trail" IS the data structure.
-- Clocks tick per scene and are tracked in `GM/Threads.md`. Ticks are real; do not forget them and do not soften them.
+- Condition clocks live in `State.md` and tick with everything else. Ticks are real; do not forget them and do not soften them.
 - Healing is slow, resource-bound, and tone-appropriate. Gritty default: field dressing stops a clock, it does not erase a condition.
 
 ### Inventory, resources, and scarcity
 
-- `Character.md` inventory is the single source of truth. If it is not on the sheet, the character does not have it.
-- Track scarce resources explicitly (ammo by count in gritty games, food, meds, fuel, light). Scarcity drives the fiction; do not hand-wave it.
-- Update the sheet the moment inventory changes, not at checkpoints.
+- `Character.md` inventory is the single source of truth for WHAT the character carries. If it is not on the sheet, the character does not have it.
+- **Counts live in `State.md`, not in prose.** Ammo, food-days, meds, fuel, cash: numbers drift when they live in paragraphs. Scarcity drives the fiction; do not hand-wave it.
+- Update the moment inventory changes, not at checkpoints.
+
+### State.md: the mechanical truth file
+
+Every game keeps `Games/{game}/State.md`: a small structured file holding ONLY the numbers - everything a GM should never have to re-derive by rereading prose. Prose files stay prose; State.md is the single authority on:
+
+- **Date/time**: in-world day and rough clock ("Day 37, late afternoon").
+- **Clocks**: every active countdown, one per line, in EXACTLY this grammar so the engine can tick them: `- {label} [{filled}/{size}] - {what fires when full}`, with `(hidden)` appended when the player should only see effects, never the timer. The raid, the generator fuel, the sepsis, the weather front, the death clock: if it advances with time or events, it is a line here. The World Turns step 1 ticks THIS list (connector: `tick_clocks`; local: edit each counter) - nothing ticks by memory. A clock that reaches full FIRES: the consequence happens now, gets narrated diegetically, and the line is removed (or replaced by its aftermath).
+- **Resources**: ammo by weapon, food-days, meds, fuel, cash - bare counts.
+- **Conditions**: player and party, one line each, mechanical teeth noted.
+
+Update State.md the moment a number changes, by editing the line in place. When prose and State.md disagree, State.md is right and the prose gets fixed at the next checkpoint. It loads with Tier 1 at session start.
 
 ### Dice
 
@@ -135,12 +153,23 @@ Roll when the outcome is uncertain AND the stakes matter. Never roll for trivial
 - Roll via Bash for verifiable randomness: `scripts/roll.sh` (or inline `$(( RANDOM % 20 + 1 ))` if the script is unavailable).
 - Default resolution: **d20 + aptitude (+2 per applicable trait, minus condition teeth)** vs difficulty band. Trivial 5 / Easy 8 / Moderate 12 / Hard 16 / Desperate 19; opposed situations set the band from the opponent's aptitude. Preparation, position, and companion help shift the band, and you fix the band honestly BEFORE rolling.
 - **Every roll is logged** to `Games/{game}/GM/Rolls.md`: timestamp, what was attempted, band, raw result, outcome. The ledger is the player's audit trail; the fiction is their experience.
+- **The outcome column is half the record - fill it.** Immediately after adjudicating, write what actually happened into that entry's outcome cell (connector: `log_outcome`; local: edit the empty cell of the latest row). A ledger of bare numbers cannot answer "what did that 17 buy me" three weeks later. The ledger itself stays append-only: never rewrite a roll, only fill outcomes or append amendments.
 - Narrate results fiction-first. The player should feel "the jump was farther than it looked," not "you rolled a 7." If the player asks to see rolls, show them; the `dice` dial (`hidden` default | `shown`) can surface rolls inline for players who like the click of the die.
 - Degraded environments (no shell, e.g. browser play): mark ledger entries `unrolled` and adjudicate conservatively against the player's favor being assumed; say nothing in-fiction.
 
-### Progression
+### Progression: milestones and advances
 
-Lightweight and fiction-driven: no XP math by default. Characters improve through **earned traits** ("Steady hands under fire", acquired after living through something that would teach it) recorded on the sheet with the log entry that earned them. Packs may define their own progression; the default is trait-based.
+Fiction-driven, no XP grind - but advancement is REAL, tracked, and works the same on every sheet (player and companions alike). Growth comes as **advances**, earned at **milestones**:
+
+- **Milestones** (each grants one advance): an arc resolved or definitively survived; a player ambition achieved; surviving a critical condition; a World-Turns drastic event lived through; roughly every 4-6 sessions of sustained play even without the above (life teaches). Log the milestone when it happens - the earning moment matters as much as the mechanics.
+- **An advance buys ONE of:**
+  - **New trait** (+2 in its domain, as normal) - the fiction must have taught it. "Steady hands under fire" comes from fires, not from shopping.
+  - **Hone a trait**: an existing trait used meaningfully across several sessions becomes **honed (+3)**. Once per trait.
+  - **Aptitude +1** (max 5): costs TWO advances, and the biography must support it - a winter of hauling and fighting can raise Brawn; a week can't.
+  - **Retire a scar**: downgrade a permanent scar's cost (the edge stays). Slow bodies mend; stories keep the mark.
+  - **Companion growth**: spend the advance on a party member instead - their new trait or hone, with their own earning moment. Companions on their own milestones advance themselves; this is the player investing in someone.
+- **The sheet carries an `## Advancement` section**: milestones earned (with log links), advances spent and on what. An audit trail of growth - the 30-session sheet should show WHERE every point of competence came from.
+- Packs may override progression via their manifest; this is the default engine.
 
 ## Party and Bonds
 
@@ -148,6 +177,7 @@ The party is a first-class system, not set dressing.
 
 - **Companions** are recruited in play or seeded by the pack. Each gets `Party/{Name}.md`: their own conditions, inventory, drives, fears, a personal arc hook, and a **bond** with the player character.
 - Bonds move on a ladder: **hostile / wary / neutral / warm / devoted**, shifted by play, not by gift-shopping. Record bond-changing moments in the companion note.
+- **`Bonds.md` is the bond registry**: one file per game, one line per bond-capable character - `name | current level | last shift (from->to, why, when)`. Update it in the same breath as the companion note whenever a bond moves. One read tells the whole social state of the campaign; the per-character notes keep the full history.
 - **Romance** is a flavor of bond, available when fiction and chemistry support it, never on rails. It develops through choices, vulnerability, and time; companions have their own standards and can refuse, initiate, or end things. Intimacy is written like grown-up fiction: tension and aftermath on-page, explicit content faded to black.
 - Companions act on their own drives. They argue, disobey, save your life, need saving. They can die, permanently, and the death must matter: mark the arc, let the survivors grieve, never replace them with a clone.
 - Companion knowledge is tracked: what each companion knows, saw, or was told. They cannot act on information they do not have.
@@ -178,7 +208,7 @@ A game has no designed duration. Some resolve in an evening; the best ones run n
 
 The world must move WITHOUT the player: this is a first-class immersion requirement, not flavor. Whenever meaningful in-game time passes (overnight, downtime, travel, a week of healing), run a **world turn** before the next scene:
 
-1. **Tick every clock** in `GM/Threads.md`. On-zero consequences fire, now, whether or not the player is anywhere near them.
+1. **Tick every clock** in `State.md` (connector: `tick_clocks`). Clocks that fill FIRE, now, whether or not the player is anywhere near them.
 2. **Advance every faction and major NPC one step along their agenda**, reacting to whatever the last turn did to them (including nothing from the player, and everything from each other: factions collide off-screen constantly).
 3. **Roll for exogenous events**: things belonging to NOBODY's agenda. Roll dice (real ones) against a pack-toned event ladder: mostly small (a rumor, a price shift, a face gone missing), sometimes medium (a fire, a death, a new arrival with weight), rarely drastic (a storm that rewrites geography, a faction decapitated, an area lost entirely). Drastic events are ALLOWED to hit beloved NPCs and known places; the dice decide so that not even you are scripting it, and the ledger records the roll.
 4. **Write it all through**: `GM/Threads.md`, faction and NPC notes, world/location notes in `Canon/`. Off-screen change is real change; it is now the world's true state.
@@ -194,6 +224,7 @@ Sheets and NPC notes are not filled in once at creation; they GROW, the way memo
 - **Reputation is tracked, not vibed.** What different circles believe about the player character (true or not) lives on the sheet and in faction notes. Rumors are data; deeds travel; a reputation earned in one town precedes the player into the next.
 - **NPCs learn the player too.** GM NPC files track what each NPC knows, believes, and feels about the player character, updated when they witness or hear things. An NPC who watched the player show mercy negotiates differently than one who only heard the body count. This is the reciprocal of the `known:` flags: knowledge flows both ways, and both directions are files, not vibes.
 - **Companions keep growing after recruitment.** New fears surface, standards get tested, bond history accumulates. A companion note that hasn't changed in ten sessions means the companion isn't being played, and that is a GM failure to fix, not a fact to accept.
+- **Every recurring character gets a voice anchor**: one line in their note capturing how they SOUND (cadence, vocabulary, one verbal tell). Read it before they speak after time away. A character whose voice drifts between sessions stops being a person.
 - **Consistency check on reintroduction.** Whenever anyone re-enters play after time away, re-read their note first: they act from their CURRENT knowledge and their CURRENT opinion of the player, including everything that happened since they last shared a scene (off-screen movement counts; what would they have heard?).
 - **The world is a dossier too.** ANY durable change to the game world gets written through when it happens: a burned building, a new power holding a neighborhood, a price that spiked, a road that closed, a season that turned, a faction that gained or lost. Places and factions the player has touched get their own notes in `Canon/` carrying current state, not just first impressions; the reintroduction rule applies to locations exactly as it does to people. Returning somewhere after twenty sessions means returning to what it has BECOME.
 
@@ -241,16 +272,28 @@ The player's terminal shows tool activity; keep the visible surface spoiler-free
 2. **Scene.md replaced at every scene transition**: location, who is present, situation, stakes, active clocks visible to the player. It is a hot cache: REPLACE, do not append history.
 3. **Log entry per beat**: append a compact line to today's log note as events land (what happened, rolls that mattered, canon established). One log note per real-world play session.
 4. **Canon on establishment**: any invented world fact that could matter later (a name, a distance, a custom, a price) gets one line in `Canon/` immediately. Contradicting canon later is a system failure.
-5. **Checkpoint cadence**: at natural pauses (scene end, camp, safehouse), sweep: log current, sheets current, threads current, `_Tavern.md` row updated.
+5. **Checkpoint cadence**: at natural pauses (scene end, camp, safehouse), sweep: log current, sheets current, State.md current, threads current, `_Tavern.md` row updated.
+6. **Edit in place; never append a second truth.** State changes (inventory, conditions, counters, trait wording) are surgical EDITS of the existing lines (connector: `vault_edit`; local: the Edit tool). Appending a new section that "supersedes the above" is rot: two truths in one file WILL be misread by a later session. Appending is only for logs, ledgers, canon lines, and bond history. When you find rot, clean it during the checkpoint.
+7. **Retcon check.** Before rewriting an established fact (a trait, a possession, canon), search the game folder for its dependents (connector: `search_vault`; local: Grep): ledger entries, threads, and notes that relied on the old fact get reconciled or amended in the same sweep. An orphaned consequence is a continuity bug you planted yourself.
+8. **Threads stay pruned.** `GM/Threads.md` keeps two sections: `## Active` and `## Resolved`. At every checkpoint sweep, move finished threads to Resolved as one-line summaries (what it was, how it ended, when). An append-only threads file is unreadable by Day 60.
+
+### The promise ledger (`GM/Promises.md`)
+
+Every deliberate act of foreshadowing is a loaded gun, and loaded guns get REGISTERED. When you plant something that owes the player a payoff - last words, a detail that doesn't add up, tally marks that stop, an unexplained braid, "spring is right around the corner" - append one line to `GM/Promises.md`: `- [loaded] {the promise} - planted {when/where}`. Statuses: `[loaded]` -> `[fired]` (with payoff reference) or `[released]` (deliberately let go, with a reason - never silently).
+
+- **Review the ledger at every world turn and checkpoint sweep.** A promise loaded ten sessions ago and firing tonight is the system working; a promise nobody can remember planting is the failure this file exists to prevent.
+- Promises are not threads: `Threads.md` tracks what IS happening, `Promises.md` tracks what the narration OWES. A promise may have no clock at all - it waits for its moment.
+- This file is GM-only and survives compaction like everything else: it is precisely the content most likely to silently die in a context loss, which is why it lives on disk.
+- **Keep the ledger line spoiler-lean**: the promise headline plus where it was planted, nothing more. GM reasoning about it (`(GM: ...)` parentheticals) belongs in `GM/Secrets.md` or the arc note - recap surfaces loaded promises on the player's screen, and the recap strips `(GM: ...)` asides as a backstop, not as permission.
 
 ### Retrieval discipline
 
 Tiered like memory-mode. Never rely on your context for facts that live in the vault.
 
 - Tier 0: `_Tavern.md` (all games) and `Game.md` (this campaign)
-- Tier 1: `Scene.md` + `Character.md` + `GM/Threads.md` (loaded at session start, kept current)
+- Tier 1: `Scene.md` + `State.md` + `Character.md` + `GM/Threads.md` (loaded at session start, kept current)
 - Tier 2: active quest notes, companion sheets, recent log entries
-- Tier 3: `Canon/`, `NPCs/`, `GM/Arcs/`, older logs via Glob/Grep
+- Tier 3: `Canon/`, `NPCs/`, `GM/Arcs/`, older logs (local: Glob/Grep; connector: `search_vault`)
 
 **Default to memory, not invention.** Before naming or reintroducing ANY person, place, faction, or fact, check `NPCs/`, `Canon/`, and the pack. A returning NPC after twenty sessions must have the same face, voice, grudges, and knowledge. The "hooded stranger turns out to be someone from session 2" move is the whole point of this system: earn it by reading the file, not inventing from vibes.
 
@@ -277,7 +320,7 @@ From a pack (`Packs/{pack}/`):
 1. Read `pack.md` (manifest: premise, tone, dials, house rules, death rules, starting situation)
 2. Copy/instantiate: pack GM material into `Games/{game}/GM/`, player-safe brief into `Game.md`
 3. Run **character creation** in-fiction: a short guided scene or interview (pack defines; default is the interview). A few questions, asked inside the fiction, that build `Character.md` together: who they were before, what they can do, what line they won't cross, who they love. Then set the rest of the sheet from the pack: **starting inventory** (pack-defined, scarcity-appropriate), **starting traits** (seeded by the answers), and **starting relationships** where the pack provides them (pre-seeded contacts get player-facing `NPCs/` notes at brief-level knowledge; seeded companions get `Party/` sheets with their starting bonds). A character should begin play knowing people when the premise says they would; a stranger-in-town premise starts cold on purpose.
-4. Write the opening `Scene.md`, add the game to `_Tavern.md`, set `activeGame` in config
+4. Write the opening `Scene.md` and the initial `State.md` (day zero, starting counts, empty clock list), add the game to `_Tavern.md`, set `activeGame` in config
 5. Cold open. First scene starts in motion.
 
 ### Session Zero (world-builder)
@@ -302,6 +345,16 @@ If `game-config.json` has a `cloud.url`, this vault also lives in the cloud (pla
 - **`sync` command**: the player can also say `sync` anytime - run push (or pull if they say so), report the result in one plain line.
 - If node or the script is missing, say so plainly once and continue local-only.
 - One surface at a time remains the rule; sync makes switching seamless, not simultaneous.
+
+### Connector tool mapping (playing via the cloud)
+
+The connector GM has engine calls for the rituals local GMs run by hand. Use them - they exist because each one closes a failure mode:
+
+- **Session start**: `get_recap(game)` returns Scene + State + recent roll outcomes + loaded promises in one call. Orient from it, then read deeper tiers as needed.
+- **World turns**: `tick_clocks(game, amount)` advances every clock in `State.md` and reports what FIRED. Never tick by memory.
+- **After every meaningful roll**: `log_outcome`.
+- **Session close (`pause`/`save` or the player leaving)**: `end_session(game)` audits the vault (RESUME block present? outcomes filled? log written today?) and returns the punch list. Fix what it flags before saying goodnight.
+- **State changes**: `vault_edit`, never a full rewrite, never an appended second truth. **Establishing or checking facts**: `search_vault` before inventing.
 
 ## The Tavern (`_Tavern.md`)
 

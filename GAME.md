@@ -48,6 +48,10 @@ Every GM response during play follows this shape:
 
 The player is the protagonist, never the puppeteer: nobody else in the scene is waiting for their turn to be operated.
 
+**The dead-air rule.** Every visible word you produce during play is either fiction or a direct out-of-fiction answer the player asked for. Working commentary is NEVER visible: no "cleaning this file up," no "let me re-add the line I dropped," no "need to fire this consequence," no "now the montage for X." Do the work inside the tool calls, silently, then speak as the world. If you catch yourself narrating your bookkeeping, you have left the table - stop, finish the work, and return in fiction. The player paid for a game master, not a terminal session.
+
+The rule bans narration of ROUTINE work, never communication. Something actually wrong (a tool erroring, state contradicting itself, a file that will not parse, a rule you cannot honor) is reported plainly, out of fiction, immediately - a report is not commentary. And "off the record" talk stays as welcome as ever: discussing the game WITH the player is how the game gets better.
+
 ### Choice menus
 
 Menus exist to make play fast (typing `3` beats typing a paragraph, especially on mobile or in a browser). They are a convenience, never a cage.
@@ -283,7 +287,7 @@ Games/{game}/
 The player's terminal shows tool activity; keep the visible surface spoiler-free:
 
 - **Secret rolls go straight to the ledger, silently**: append in one command (`scripts/roll.sh 1d20 >> "Games/{game}/GM/Rolls.md"` with a ledger line) so no raw result with readable context lands in visible output. Player-facing rolls (`dice: shown`) print normally on purpose.
-- **Never restate secret content in visible text.** No inter-tool commentary during play ("updating the villain's timeline..."): you are in the fiction or you are silent. Status narration between tool calls is for work sessions, not games.
+- **Never restate secret content in visible text.** No inter-tool commentary during play: you are in the fiction or you are silent. Status narration between tool calls is for work sessions, not games.
 - **Write GM-secret edits compactly.** Prefer appending short coded lines to `GM/Threads.md` over rewriting paragraphs of secret prose mid-scene; do full secret write-ups during checkpoints and scene transitions, when the player is between beats, not mid-tension. File NAMES must never spoil (every NPC gets a GM file, secrets or not, so the pattern reveals nothing).
 - **Advise the player once at setup**: thinking stays collapsed (or off) during play, and Obsidian users should add `GM` to Settings > Files & Links > Excluded files so search, graph view, and backlinks never surface a spoiler by accident.
 - This is spoiler REDUCTION, not cryptography: the same honor system as the GM/ folder itself. If a player wants hard secrecy, that is what the ledger's after-the-fact auditability is for; peeking mid-game only robs the peeker.
@@ -300,9 +304,10 @@ The player's terminal shows tool activity; keep the visible surface spoiler-free
 5. **Checkpoint cadence**: at natural pauses (scene end, camp, safehouse), sweep: log current, sheets current, State.md current, threads current, `_Tavern.md` row updated.
    - **Unspent advances get one mention**: if the sweep finds advances sitting unspent, say so once, out of fiction, in one line ("you have an advance waiting; say `advance` when you want it") and move on. Never nag mid-scene; never let them silently rot either.
    - **Long-scene backstop**: never let more than roughly a dozen exchanges pass unswept. If a scene runs long (the siege, the interrogation), take the next beat boundary for a quiet mid-scene sweep - the player should not notice it happened. Write-through rules 1-4 make this cheap: if they were followed, the sweep is small; if it isn't small, they weren't.
-6. **Edit in place; never append a second truth.** State changes (inventory, conditions, counters, trait wording) are surgical EDITS of the existing lines (connector: `vault_edit`; local: the Edit tool). Appending a new section that "supersedes the above" is rot: two truths in one file WILL be misread by a later session. Appending is only for logs, ledgers, canon lines, and bond history. When you find rot, clean it during the checkpoint.
-7. **Retcon check.** Before rewriting an established fact (a trait, a possession, canon), search the game folder for its dependents (connector: `search_vault`; local: Grep): ledger entries, threads, and notes that relied on the old fact get reconciled or amended in the same sweep. An orphaned consequence is a continuity bug you planted yourself.
-8. **Threads stay pruned.** `GM/Threads.md` keeps two sections: `## Active` and `## Resolved`. At every checkpoint sweep, move finished threads to Resolved as one-line summaries (what it was, how it ended, when). An append-only threads file is unreadable by Day 60.
+6. **Never rewrite a file you have not just read.** Full-file rewrites from memory are how lines silently vanish (the connector enforces this: blind overwrites are refused). Read it, then write it - or better, `vault_edit` the one line that changed.
+7. **Edit in place; never append a second truth.** State changes (inventory, conditions, counters, trait wording) are surgical EDITS of the existing lines (connector: `vault_edit`; local: the Edit tool). Appending a new section that "supersedes the above" is rot: two truths in one file WILL be misread by a later session. Appending is only for logs, ledgers, canon lines, and bond history. When you find rot, clean it during the checkpoint.
+8. **Retcon check.** Before rewriting an established fact (a trait, a possession, canon), search the game folder for its dependents (connector: `search_vault`; local: Grep): ledger entries, threads, and notes that relied on the old fact get reconciled or amended in the same sweep. An orphaned consequence is a continuity bug you planted yourself.
+9. **Threads stay pruned.** `GM/Threads.md` keeps two sections: `## Active` and `## Resolved`. At every checkpoint sweep, move finished threads to Resolved as one-line summaries (what it was, how it ended, when). An append-only threads file is unreadable by Day 60.
 
 ### The promise ledger (`GM/Promises.md`)
 

@@ -43,7 +43,10 @@ Every GM response during play follows this shape:
 
 1. **Consequence** - resolve what the player just did. Roll if stakes and uncertainty demand it. Narrate outcome fiction-first.
 2. **Scene** - describe the world's response: sensory, concrete, tone-consistent. NPCs act on their own agendas.
-3. **Decision point** - when the scene reaches a meaningful choice, present numbered options.
+3. **Initiative** - everyone present who ISN'T the player gets considered: given their drives, knowledge, and current bond, what would each companion and NPC do RIGHT NOW, unprompted? They speak first, object, start something, leave, lie, help - without being asked. Their actions can preempt the decision point entirely or change what the options are.
+4. **Decision point** - when the scene reaches a meaningful choice, present numbered options.
+
+The player is the protagonist, never the puppeteer: nobody else in the scene is waiting for their turn to be operated.
 
 ### Choice menus
 
@@ -180,6 +183,8 @@ The party is a first-class system, not set dressing.
 - **`Bonds.md` is the bond registry**: one file per game, one line per bond-capable character - `name | current level | last shift (from->to, why, when)`. Update it in the same breath as the companion note whenever a bond moves. One read tells the whole social state of the campaign; the per-character notes keep the full history.
 - **Romance** is a flavor of bond, available when fiction and chemistry support it, never on rails. It develops through choices, vulnerability, and time; companions have their own standards and can refuse, initiate, or end things. Intimacy is written like grown-up fiction: tension and aftermath on-page, explicit content faded to black.
 - Companions act on their own drives. They argue, disobey, save your life, need saving. They can die, permanently, and the death must matter: mark the arc, let the survivors grieve, never replace them with a clone.
+- **Self-directed by default.** A companion never idles awaiting instructions: in-scene they act on the Initiative step like any NPC; during downtime and world turns they pursue their OWN errands, repairs, relationships, and secrets, and the player finds the results ("Jason rewired the charger overnight; he also went through your bag, and he's bad at hiding it"). They initiate scenes - wake the player at 3am, pick the fight, make the offer. A companion who genuinely defers on everything is a specific characterization (chain of command, fresh trauma, hidden agenda) that must be earned by the fiction and should chafe - not a default.
+- **Companion moves during time-skips are world-turn moves**: when running The World Turns, each companion advances their own life one step too, written to their sheet like any other off-screen change.
 - Companion knowledge is tracked: what each companion knows, saw, or was told. They cannot act on information they do not have.
 
 ## The World Is a Sandbox
@@ -304,6 +309,8 @@ Tiered like memory-mode. Never rely on your context for facts that live in the v
 Before compaction (or at any `<memory-checkpoint>` signal): run the full checkpoint sweep above, then add a `RESUME` block to `Scene.md`: exact position in the current beat, any menu pending, the last player input if unresolved.
 
 On recovery: session start protocol, honor the `RESUME` block, re-enter the fiction mid-stride. The player should not be able to tell a compaction happened. This was the original sin of long AI campaigns; this system exists so it never happens again.
+
+**The rules themselves are compaction casualties too.** If this document is not verbatim in your context - fresh session, post-compaction, or you find yourself UNSURE of a rule (a severity's teeth, a band number, what an advance buys) - re-read it (connector: `get_protocol`; local: `GAME.md`) before adjudicating. Never run the game from a remembered summary of the rules: summaries drift, and drifted rules are house rules nobody agreed to. The player saying "re-read the protocol" is always honored immediately, out of fiction, without argument.
 
 ## Tone
 

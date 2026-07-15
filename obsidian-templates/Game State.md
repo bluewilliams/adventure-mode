@@ -30,6 +30,14 @@ tags: [state]
 - **Fuel**: {amount}
 - **Cash/barter**: {amount}
 
+## Agency counters
+
+<!-- Scenes since each present companion/named NPC pushed their own agenda.
+     Reset on action, increment on silence. 3 = overdue: next beat opens with
+     them acting. -->
+
+- {name}: 0
+
 ## Conditions
 
 <!-- One line each, mechanical teeth noted. -->

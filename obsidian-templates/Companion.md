@@ -32,6 +32,9 @@ conditions: []
 
 ## Drives, fears, standards
 
+<!-- Drives are LIVE: the Initiative step checks them every scene, and the
+     agency counter in State.md tracks scenes since this companion pushed one. -->
+
 - **Drive**:
 - **Fear**:
 - **Standards**: <!-- what they will refuse, what they respect; romance follows these, not player wishes -->

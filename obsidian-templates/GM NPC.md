@@ -47,6 +47,12 @@ weaknesses:
     discovery: "{path}"
 ```
 
+## Drives
+
+<!-- 1-3 live wants, checked every scene they are present (Initiative step). -->
+
+- {drive}
+
 ## Agenda and timeline
 
 - **Wants**:

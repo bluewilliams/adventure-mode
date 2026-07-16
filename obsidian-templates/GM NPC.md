@@ -71,7 +71,10 @@ weaknesses:
 
 <!-- What THIS NPC knows, believes, and feels about the PC. They act from this,
      not from the truth. DATED entries, not prose: mid-scene "does she know?"
-     must be answerable by reading a line. -->
+     must be answerable by reading a line. Track knowledge of OTHER people,
+     places, and events the same way once it matters (fact + date + channel:
+     witnessed / told by X / rumor). Provenance pause before they speak:
+     if no line and no plausible channel, they do not know it. -->
 
 ```yaml
 knows:

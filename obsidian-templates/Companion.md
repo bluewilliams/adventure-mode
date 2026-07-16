@@ -53,6 +53,16 @@ conditions: []
 
 <!-- Companions cannot act on information they do not have. Track it. -->
 
+
+## Doctrine
+
+<!-- The lens: how this character thinks, feels, weighs decisions. Not traits
+     (mechanical), not knows: (facts). Status: standing | active | faded Day N.
+     Append and amend, never delete - flipped statuses ARE the arc.
+     Grown from the log: date + causing event on every shift. -->
+
+- {principle or feeling} | since Day {N} | {standing|active} | context: {general} | src: event + log ref
+
 ## Advancement
 
 <!-- Companions grow on the same engine (GAME.md, Progression): their own

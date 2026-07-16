@@ -21,6 +21,16 @@ When a fact is earned in play: flip the flag here AND write it through to `NPCs/
 |---|---|---|---|---|
 | 2 | 2 | 2 | 2 | 2 |
 
+
+## Doctrine
+
+<!-- The lens: how this character thinks, feels, weighs decisions. Not traits
+     (mechanical), not knows: (facts). Status: standing | active | faded Day N.
+     Append and amend, never delete - flipped statuses ARE the arc.
+     Grown from the log: date + causing event on every shift. -->
+
+- {principle or feeling} | since Day {N} | {standing|active} | context: {general} | src: event + log ref
+
 ## Growth
 
 <!-- Dated, caused, earned (GAME.md: The world grows too). Assessed at world

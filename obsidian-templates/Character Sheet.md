@@ -56,6 +56,16 @@ conditions: []
 
 <!-- Permanent marks: healed wounds, debts, reputations. Append, never rewrite. -->
 
+
+## Doctrine
+
+<!-- The lens: how this character thinks, feels, weighs decisions. Not traits
+     (mechanical), not knows: (facts). Status: standing | active | faded Day N.
+     Append and amend, never delete - flipped statuses ARE the arc.
+     PLAYER-OWNED: GM proposes lines, the player ratifies them. -->
+
+- {principle or feeling} | since Day {N} | {standing|active} | context: {general} | src: player
+
 ## Advancement
 
 <!-- Milestones earned and advances spent (GAME.md, Progression). An audit

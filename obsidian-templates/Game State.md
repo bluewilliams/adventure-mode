@@ -36,7 +36,7 @@ tags: [state]
      Reset on action, increment on silence. 3 = overdue: next beat opens with
      them acting. -->
 
-- {name}: 0
+- {name}: 0 (Day {N}, drive: {which})
 
 ## Conditions
 

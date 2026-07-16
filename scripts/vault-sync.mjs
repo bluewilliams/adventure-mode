@@ -155,7 +155,7 @@ async function main() {
     }
     for (const f of files) {
       const content = readFileSync(join(VAULT, f), "utf8");
-      const res = await call("write_file", { path: f, content, sync: true });
+      const res = await call("write_file", { path: f, content });
       if (res.startsWith("WROTE")) console.log(`  pushed ${f}`);
       else if (res.includes("bundled starter pack")) console.log(`  skip   ${f} (bundled pack, already server-side)`);
       else console.error(`  FAILED ${f}: ${res}`);

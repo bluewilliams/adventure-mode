@@ -3,7 +3,7 @@ type: quest
 game: "{game-key}"
 name: "{quest name, as the PLAYER would call it}"
 status: active         # rumored | active | resolved | failed | abandoned
-opened: "[[Log/{date} ({n})]]"
+opened: "Day {N}, [[Log/{NN} {chapter}]]"
 updated: {YYYY-MM-DD}
 summary: "One-line state"
 tags: [quest]

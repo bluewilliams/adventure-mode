@@ -7,7 +7,13 @@ tags: [gm]
 
 # GM Threads (SPOILERS)
 
-<!-- The GM's hot cache: everything moving that the player cannot see. Kept current every turn where a clock ticks. -->
+<!-- The GM's hot cache: everything moving that the player cannot see. Kept
+     current every turn where a clock ticks. Write-through rule 9: everything
+     below lives under ## Active; finished threads move to ## Resolved as
+     one-line summaries at every checkpoint sweep, and Resolved's oldest lines
+     backfill-then-drop into their chapter once they stop echoing. -->
+
+## Active
 
 ## Clocks
 
@@ -34,3 +40,7 @@ clocks:
 ## Quest states (GM view)
 
 - {quest} - {true state incl. what the player has not learned}
+
+## Resolved
+
+- {YYYY-MM-DD / Day N} {what it was} - {how it ended}

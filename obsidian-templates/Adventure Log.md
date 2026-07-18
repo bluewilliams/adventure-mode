@@ -1,29 +1,34 @@
 ---
 type: log
 game: "{game-key}"
-date: {YYYY-MM-DD}
-session: {n}
-summary: "One-line summary of the session"
+chapter: {NN}
+days: "{A}-{B or blank while open}"
+summary: "One-line summary of the chapter"
 tags: [log]
 ---
 
-# {game} - Session {n} ({YYYY-MM-DD})
+# Chapter {NN}: {chapter name} (Days {A}-{B})
 
-<!-- One note per real-world play session. Append beats as they land; compact lines, not prose. -->
+<!-- The log is the campaign's system of record, chaptered by IN-GAME time.
+     ONE chapter is open at a time; every beat appends here as a dated line.
+     Roll the chapter at a natural narrative break (arc resolved, region left,
+     a big world turn) or when the engine flags it oversized: complete the
+     day range in the header above, add this chapter's line to Log/_Index.md,
+     open the next numbered file. Closed chapters are NEVER rewritten - the
+     only append they accept afterward is a dated amendment line written to
+     back-fill detail before a dossier compresses (GAME.md, The log is the
+     archive). -->
 <!-- Markers: ⚔️ danger/combat, 💬 social, 🩸 harm taken, 💀 death, 🔑 discovery/canon, ❤️ bond shift, 🎲 roll that mattered, 📦 inventory shift -->
 
 ## Beats
 
-- {in-game time} {marker} {what happened}
+- {YYYY-MM-DD} / Day {N}: {marker} {what happened, rolls that mattered, canon established}
 
 ## Canon established
 
-- {new world facts invented this session; each also gets a line in Canon/}
+- {new world facts invented this chapter; each also gets a line in Canon/}
 
-## State changes
+## Amendments
 
-- {conditions gained/cleared, inventory deltas, bond moves, quest-state changes, clock ticks}
-
-## Where we stopped
-
-{One or two sentences; mirrors Scene.md at close.}
+<!-- Dated back-fill lines appended after close, only to preserve detail being
+     compressed out of a dossier. Never edits to existing lines. -->

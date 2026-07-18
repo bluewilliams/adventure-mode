@@ -28,13 +28,13 @@ conditions: []
 #   severity: serious          # scratch | hurting | serious | critical
 #   effects: "No sprinting. Bleeding."
 #   clock: "Worsens to critical in 3 scenes untreated"
-#   acquired: "Log/{date} ({n}).md"
+#   acquired: "Day {N}, Log/{NN} {chapter}"
 ```
 
 ## Traits
 
 <!-- Earned through play. Each cites the log entry that earned it. -->
-- {Trait} - {what it means mechanically/fictionally} (earned: [[Log/{date} ({n})]])
+- {Trait} - {what it means mechanically/fictionally} (earned: Day {N}, [[Log/{NN} {chapter}]])
 
 ## Inventory
 
@@ -62,6 +62,8 @@ conditions: []
 <!-- The lens: how this character thinks, feels, weighs decisions. Not traits
      (mechanical), not knows: (facts). Status: standing | active | faded Day N.
      Append and amend, never delete - flipped statuses ARE the arc.
+     Faded entries relocate VERBATIM to ## Archive at the bottom of this file
+     at checkpoints (compression rule 4): arc stays readable, top stays NOW.
      PLAYER-OWNED: GM proposes lines, the player ratifies them. -->
 
 - {principle or feeling} | since Day {N} | {standing|active} | context: {general} | src: player
@@ -73,7 +75,7 @@ conditions: []
 
 ### Milestones
 
-- {YYYY-MM-DD} {what was survived/achieved} - [[Log/{date} ({n})]] - {spent | unspent}
+- {YYYY-MM-DD} {what was survived/achieved} - Day {N}, [[Log/{NN} {chapter}]] - {spent | unspent}
 
 ### Advances taken
 

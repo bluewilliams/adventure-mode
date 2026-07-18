@@ -3,7 +3,7 @@ type: npc
 game: "{game-key}"
 name: "{Name}"
 status: alive          # alive | dead | unknown
-first_met: "[[Log/{date} ({n})]]"
+first_met: "Day {N}, [[Log/{NN} {chapter}]]"
 faction: "{faction or none}"
 bond: neutral
 updated: {YYYY-MM-DD}
@@ -17,7 +17,7 @@ tags: [npc]
 ## What you know
 
 <!-- One line per earned fact, each with the log entry where it was learned. -->
-- {fact} (learned: [[Log/{date} ({n})]])
+- {fact} (learned: Day {N}, [[Log/{NN} {chapter}]])
 
 ## Last seen
 

@@ -24,6 +24,11 @@ house_rules:
   - "Space combat is minutes of terror: position and first detection beat firepower; most fights are won before they start or not at all. There are no shields, only distance, spin, and nerve."
   - "First contact is the treasure: new species, living or dead, are the Shoal's real wealth. What you learn, record, trade, or protect is worth more than cargo, and how you behave at first contact follows your ship's name forever."
   - "Ground is its own country: every world gets its own physics (gravity, air, weather, what listens). Suits and consumables are counted; the ground event ladder runs whenever you are off the deck."
+era:
+  setting: "the Shoal, 38 years after the Sol Gate opened - hard-edged spacefaring"
+  exists: [fusion torches, spin gravity, vac-suits, prosthetics, fabbers (slow, fed by salvage), the Meridian gates (alien, dying)]
+  rare: [Meridian artifacts, terraforming capacity (Combine-held), gene clinics, weapons above small-arms scale]
+  absent: [human-built FTL, artificial gravity, energy shields, teleportation, mind uploading, sapient human-built AI, fast terraforming; the quiet drive exists only in the Vault]
 progression: trait-based (default)
 requires: []
 ```

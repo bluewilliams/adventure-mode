@@ -22,6 +22,11 @@ house_rules:
   - "HEAT: a police-attention clock (GM/Threads.md). Bodies, flash, and sloppiness raise it; discipline and payoffs lower it. High heat changes what the world dares to do near you."
   - "STANDING: your rung on the ladder - outsider / connected / earner / made / capo / administration. Standing gates rooms, jobs, and protection. It moves on earning, discipline, and blood, never on asking."
   - "Carrying a gun is a choice with weight: it raises what stops mean, what searches find, and what juries decide."
+era:
+  setting: "1979, Brickport NJ - period is LAW: no anachronisms in either direction"
+  exists: [rotary and pay phones, CB radio, cassette tapes, revolvers and shotguns, cash economy, carbon-paper records]
+  rare: [car phones (bosses only), color surveillance, honest cops]
+  absent: [cell phones, internet, DNA forensics, CCTV coverage, caller ID, computerized records worth stealing]
 progression: trait-based (default) + STANDING ladder
 requires: []
 ```

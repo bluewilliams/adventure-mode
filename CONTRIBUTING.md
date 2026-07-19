@@ -28,7 +28,7 @@ Reviewers check for these before merging - build to them from the start:
 1. **Factions with agendas, not plots.** Every named faction has a want, a clock, and an answer to "what happens if the player does nothing?" Agendas generate content forever; scripted plots run out.
 2. **Secrets seeded at depths, each with a discovery path.** Every secret and villain weakness carries a plausible way play could surface it (observation, capture, social, exploration). A secret nobody can reach is a secret that does not exist.
 3. **A starting situation already in motion.** The cold open should land the player in pressure, not in a lobby. Day zero has clocks already ticking.
-4. **Death rules and dials declared.** Lethality, scarcity, tone, dice visibility - stated in `pack.md`, honored by the material.
+4. **Death rules, dials, and an era block declared.** Lethality, scarcity, tone, dice visibility, and the era baseline (`exists / rare / absent` for technology and powers) - stated in `pack.md`, honored by the material. The era block is the anachronism guard for GM and player alike; absence is law.
 5. **NPCs are people, not quest pins.** Drives (1-3 live wants), a voice anchor line, relationships to each other, and at least a few who have nothing to do with the main arcs.
 6. **Multiple endings per arc skeleton.** Escalation beats, not scripts. If an arc only works one way, it is a railroad wearing a trench coat.
 7. **Spoiler hygiene.** Player-safe material lives in `pack.md` only; everything in `gm/` may spoil freely, but nothing in `pack.md` may. File NAMES must not spoil either.

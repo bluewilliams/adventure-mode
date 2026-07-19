@@ -23,6 +23,11 @@ house_rules:
   - "The Deep listens: noise, light, and magic below ground feed an attention clock per tier. What answers depends on how deep you are."
   - "Magic is real, rare, and costly: every art has a price paid in conditions (fatigue, marks, attention). There are no free cantrips and no fireball economy."
   - "Depth is commitment: every tier down, retreat gets longer than daring. Track the way back like a resource."
+era:
+  setting: "pre-industrial high fantasy, late-medieval analog"
+  exists: [steel and crossbows, water and wind mills, oil lamps and candles, the four named arts (hearth-craft, Lantern Rites, tunnel-singing, grave-speech), ancient dwarven mechanisms (found, never reproducible)]
+  rare: [clockwork (dwarven relics), printing (hand presses), literacy, glass]
+  absent: [gunpowder, steam power, electricity, mass production, resurrection, any magic outside the four named arts]
 progression: trait-based (default); magical arts are traits with pack-defined prices
 requires: []
 ```

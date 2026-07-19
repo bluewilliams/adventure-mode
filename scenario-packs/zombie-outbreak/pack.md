@@ -22,6 +22,11 @@ house_rules:
   - "Cold is a condition source: exposure clocks run outdoors, heat is shelter-gated"
   - "Noise is a resource: loud actions roll on the attention clock"
   - "Infection rules are GM-secret; the player learns them the hard way"
+era:
+  setting: "present day, outbreak year, rural Minnesota"
+  exists: [firearms, vehicles, battery radios, generators, modern medicine (dwindling stock)]
+  rare: [fuel, ammunition, working electronics, antibiotics and insulin, electricity (generator-only)]
+  absent: [functioning power grid, internet, cell service, GPS you can trust, military response, resupply, any cure]
 progression: trait-based (default)
 requires: []
 ```

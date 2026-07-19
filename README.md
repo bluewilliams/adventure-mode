@@ -69,6 +69,7 @@ YourAdventureVault/
 - **WHITEOUT** - survival horror. Northern Minnesota, five weeks after the evacuation convoys stopped, deep winter. The dead slow down in the cold. Spring is coming.
 - **OMERTA** - crime drama. Brickport, NJ, 1979. Start as an associate on the fringe of the Marchetti family with five contacts and a first job; the ladder goes up forever, and so does the drop. Build your standing, or your own family.
 - **HOLLOWCROWN** - dark high fantasy. A frontier province above a dead dwarven deep-realm whose sealed doors are opening from below. Overworld intrigue between three factions, a living megadungeon underneath, companions worth dying for, and a kingdom in mourning at the bottom of the world. No resurrection. Ever.
+- **FARWAKE** - dark space epic. Thirty star systems strung on a dying alien gate network, and a region full of species who all arrived too late. Be a spacer, a colonist, a clerk, a scholar; earn a ship or call one home. Faction politics one bad season from war, space and ground exploration, first contact as the real treasure, and a reason the gates are dying that changes everything. Vacuum does not roll dice.
 
 ## Many games, one vault
 

@@ -34,6 +34,12 @@ claude
 
 Then say **`new game`** and pick a pack, or **`session zero`** to build an original world together.
 
+## Commands
+
+Type **`--help`** at any time (even mid-scene) to see every table command with a one-line description; the GM shows the list out of fiction and returns to the scene without missing a beat. Commands also work as bare words when the message is nothing but the command - `help`, `save`, `stats` - but the `--` prefix is the guaranteed form: `--help` is always the command, even in a moment where the bare word would read as your character speaking ("help!" mid-fight is a shout, `--help` is the menu).
+
+The highlights: `--help` (this list), `--save` (checkpoint now), `--recap` (where were we), `--sheet` (your character), `--stats` (spoiler-free campaign stats table, safe to screenshot and compare), `--party`, `--journal`, `--rolls` (audit the dice), `--advance` (spend advances), `--tavern` (switch campaigns), `--pause`, and "off the record" (step outside the fiction to talk). Commands manage the table; none of them can touch the world's state - that is only ever earned in play.
+
 ## The vault
 
 ```
@@ -93,7 +99,7 @@ Adventure Mode is built for Claude Code (it needs file read/write for memory and
 
 ## Sharing a world
 
-A pack is just a folder in `Packs/`. Zip it, send it, PR it. Session Zero output compiles to the same format, so any world you build with your GM is instantly shareable.
+A pack is just a folder in `Packs/`. Zip it, send it, PR it. Session Zero output compiles to the same format, so any world you build with your GM is instantly shareable. Want yours shipped to every cloud player? PR it to `scenario-packs/` - see [CONTRIBUTING.md](CONTRIBUTING.md) for the pack anatomy and the quality bar.
 
 ## License
 

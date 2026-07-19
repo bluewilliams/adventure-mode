@@ -46,6 +46,14 @@ Six years ago the Ledger Company's deep-survey came back up from the Great Stair
 
 Character creation starts with three questions the GM will ask: who were you before the Reach called you, what do you carry that you cannot put down, and what has the dark already taken from you.
 
+## Pregens (jump in now)
+
+Skip the interview and be playing in a minute; who they are emerges at the table. Or build your own from the three questions above.
+
+- **Corin Vale**, caravan guard, first season on the Deeproad runs. Surface-born, good with a spear, still flinches at true dark; took the work because his mother's farm owes the Ledger Company. Was in the gate plaza when the bells went wrong.
+- **Sera Ashmoor**, lapsed lantern-novice. Left the Vigil over what Preceptor Halden did to a marked delver; her lantern arts still work, which frightens her more than it comforts. The Vigil considers her paperwork unresolved.
+- **Dagmar Coalsworn**, Reclaimant smith of the diaspora. Forge-strong, deep-shy, carries her grandmother's door-key and no permission to use it. Signed on with a delver crew to see the homeland with her own eyes before the songs run out.
+
 ## Starting situation
 
 See `gm/starting-state.md`. The player character starts on the day a caravan comes up the Great Stair with every soul aboard changed, and a dying carter presses something into their hand.

@@ -53,6 +53,14 @@ You grew up knowing the rules the way you know weather:
 
 Character creation starts with three questions the GM will ask: how you're connected, what you bring that the family wants, and what line you won't cross (and what you've already done).
 
+## Pregens (jump in now)
+
+Skip the interview and be playing in a minute; who they are emerges at the table. Or build your own from the creation questions.
+
+- **Nicky Averona**, bookkeeper's nephew. Grew up running numbers slips; can read a ledger like scripture and lie to anyone but his mother. The family thinks he is soft. He is not soft; he is patient.
+- **Frank Della Rosa**, dock loader with debts. Strong back, quick temper, three weeks behind to a shylock, and one favor owed to him by exactly the wrong person. Wants one big year and out; nobody gets one big year and out.
+- **Carla Moretti**, cocktail waitress at the Starlight Room. Hears everything, forgets nothing, banned from the casino floor in Atlantic City under a different name. Saving for a bar of her own with money that keeps needing to be lent.
+
 ## Starting situation
 
 See `gm/starting-state.md`. Friday night, first real job, three problems that want the same evening.

@@ -8,7 +8,8 @@ Forked from [memory-mode-portable](https://github.com/bluewilliams/memory-mode-p
 
 - **A GM with perfect memory.** Every NPC, wound, promise, debt, and canon fact is written to the vault as it happens. The hooded stranger in session 40 really is the trader you shorted in session 2.
 - **Honest dice.** Rolls happen via a real random source, logged to an auditable ledger. The GM cannot fudge, in your favor or against.
-- **Real stakes.** Conditions instead of hit points ("shot in the left thigh, can't sprint, bleeding" IS the mechanical state), permadeath by default, one bad decision can end it all.
+- **Real stakes, roguelike legacy.** Conditions instead of hit points ("shot in the left thigh, can't sprint, bleeding" IS the mechanical state), permadeath by default, one bad decision can end it all. And when a character falls, the GM writes their epilogue, raises their memorial, and your next character enters the same world - where the grave is real, the debts are collectible, and somebody still grieves.
+- **Your story becomes a book.** `--chronicle` exports the whole campaign as one readable saga assembled from the adventure log; `--share` crafts a spoiler-safe excerpt of tonight's best scene. A finished character leaves a finished book.
 - **Choice menus, freeform always.** Numbered options at decision points for fast play (just type `3`), with "Something else" forever on the menu and free text first-class.
 - **Party and romance.** Companions with their own wounds, drives, standards, arcs, and bonds that move through play. They can love you. They can die.
 - **A living sandbox.** Factions act on timelines whether you engage or not. Avoid the main plot forever and the world stays interesting; ignored villains win things; new NPCs and plotlines are improvised mid-game and persisted so they can come back years later.
@@ -32,7 +33,7 @@ cd ~/AdventureVault
 claude
 ```
 
-Then say **`new game`** and pick a pack, or **`session zero`** to build an original world together.
+Then say **`new game`** and pick a pack - jump straight in as one of its ready-made characters, or build your own through the in-fiction interview - or say **`session zero`** to build an original world together.
 
 ## Commands
 

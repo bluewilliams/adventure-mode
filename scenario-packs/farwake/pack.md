@@ -48,6 +48,14 @@ Humanity is the newest arrival, not the first. The Shoal is full of latecomers l
 
 Character creation starts with three questions the GM will ask: who are you in the Shoal and what carried you (or your family) through a gate; what do you call home; and what promise are you moving toward.
 
+## Pregens (jump in now)
+
+Skip the interview and be playing in a minute; who they are emerges at the table. Or build your own from the three questions above.
+
+- **Cass "Patch" Odell**, hull-rat on the salvage cutter. Grew up in Verren's belt, can fix anything with enough tape and profanity, has never been through a gate. Was on the claim when the flare hit; home is the hull, and the hull knows it.
+- **Dr. Imani Sesay**, Meridian Down's only trauma surgeon. Came through the gate eight years ago chasing a research post that never materialized; stayed because people kept needing sewing up. The colony's rationing math is about to become her problem.
+- **Tomas Vray**, Compact customs clerk on High Verren. Knows every manifest, every smuggler, and every rule worth bending; filed one honest report too many and got posted to the edge of nowhere. The gate just made nowhere the center of everything.
+
 ## Starting situation
 
 See `gm/starting-state.md`. The crew starts docked to a fresh salvage claim at the edge of the Verren system, at the moment the system's only gate does something no living being has ever watched a gate do.

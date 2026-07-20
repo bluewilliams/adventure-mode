@@ -86,7 +86,7 @@ Every campaign lives in its own `Games/{game}/` folder with its own character, N
 
 - **Drop a folder in.** Any pack folder placed in `Packs/` is immediately playable: `pack.md` plus a `gm/` folder is the whole format.
 - **Build one at the table.** Session Zero output compiles straight into `Packs/{name}/`.
-- **Share by copying.** Zip a pack, send it to a friend, they drop it in their vault. Contributing packs back to the repo is welcome but never needed.
+- **Share by copying.** Zip a pack, send it to a friend, they drop it in their vault. Cloud players use `--eject-pack` / `--import-pack` instead (see Sharing a world below). Contributing packs back is welcome but never needed.
 
 ## Tone
 
@@ -102,7 +102,14 @@ Adventure Mode is built for Claude Code (it needs file read/write for memory and
 
 ## Sharing a world
 
-A pack is just a folder in `Packs/`. Zip it, send it, PR it. Session Zero output compiles to the same format, so any world you build with your GM is instantly shareable. Want yours shipped to every cloud player? PR it to `scenario-packs/` - see [CONTRIBUTING.md](CONTRIBUTING.md) for the pack anatomy and the quality bar.
+A pack is just a folder in `Packs/`, and packs travel four ways:
+
+- **`--eject-pack {name}`** (cloud): your GM stages the pack under a share code and hands you two things - a code a friend can redeem, and a download link serving a GitHub-ready zip.
+- **`--import-pack {code or GitHub link}`** (cloud): redeems a friend's code, or imports any public GitHub folder containing a `pack.md`. Copied server-side, so the `gm/` secrets never touch your chat - you can play what you import, unspoiled.
+- **`packs`** / **`browse packs {genre}`** (cloud): searches the community catalog from inside the game.
+- **Copy the folder** (local): zip it, send it, drop it in `Packs/`.
+
+The community shelf lives at [adventure-mode-packs](https://github.com/bluewilliams/adventure-mode-packs) - eject your pack, PR it into a genre folder, and every player can find it from inside their game. Standout packs get pulled into the base game with credit; that path runs through the registry (see its CONTRIBUTING for format and terms).
 
 ## License
 

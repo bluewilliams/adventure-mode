@@ -38,7 +38,9 @@ conditions: []
 
 ## Inventory
 
-<!-- If it is not on this list, the character does not have it. Count scarce things. -->
+<!-- If it is not on this list, the character does not have it. Count scarce things.
+     Use is deduction: what a beat spends, breaks, or hands off is edited here in that
+     same beat, and counts (ammo/food/meds/fuel) live in State.md as bare numbers. -->
 - {item} - {detail, counts for ammo/food/meds}
 
 ## Bonds

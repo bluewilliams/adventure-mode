@@ -11,9 +11,21 @@ tags: [gm]
      current every turn where a clock ticks. Write-through rule 9: everything
      below lives under ## Active; finished threads move to ## Resolved as
      one-line summaries at every checkpoint sweep, and Resolved's oldest lines
-     backfill-then-drop into their chapter once they stop echoing. -->
+     backfill-then-drop into their chapter once they stop echoing.
+     EVERY LINE IS A BREADCRUMB: one dated line saying what the thread is and
+     where its story lives (a chapter, a dossier) - a pointer to the memory,
+     never a retelling of it. Connector: the beat's threads cargo maintains
+     ## Active and ## Resolved in this grammar automatically. -->
 
 ## Active
+
+<!-- - [active] {thread, one line} - {pointer, e.g. Log/02, [[NPCs/Ellis]]} -->
+
+## Open mysteries
+
+<!-- Questions the story has RAISED and not yet answered, one line each,
+     pointing at where the truth lives (a gm/ file, a faction note) - never
+     restating the truth here. The closure sweep and the seal walk this list. -->
 
 ## Clocks
 

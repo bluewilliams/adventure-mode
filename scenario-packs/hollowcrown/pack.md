@@ -11,6 +11,8 @@ genre: dark high fantasy (overworld sandbox + megadungeon)
 tone: gritty
 premise: "Three hundred years ago the dwarves of Karag Vhol sealed their own gates from the inside and were never heard again. Last spring, the doors began to open."
 player_role: "A newcomer or local in the Grayreach, the frontier province above the Deeproads"
+question: "What opened the sealed gates from below, and can anything close them again?"
+campaign: saga  # the deep-realm answers; the province lives with the answer
 dials:
   lethality: high            # steel is fast, falls are far, the dark is patient
   scarcity: medium-high      # coin exists, but light, air, and trust are counted

@@ -11,6 +11,8 @@ genre: crime drama
 tone: gritty
 premise: "An associate on the fringe of the Marchetti family starts earning. The ladder goes up forever; so does the drop."
 player_role: "An associate (not yet made) connected to the Marchetti crime family of Brickport, NJ"
+question: "How high does a nobody climb before the family notices what he is?"
+campaign: saga  # the ladder ends; Brickport does not
 dials:
   lethality: high          # violence is rarer than WHITEOUT and more permanent
   scarcity: medium         # money flows; trust and safety are the scarce resources

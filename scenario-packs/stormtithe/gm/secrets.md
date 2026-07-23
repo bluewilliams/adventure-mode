@@ -1,0 +1,34 @@
+# Secrets (GM only - never surface undug)
+
+Three load-bearing truths, each seeded at three depths. Surface signs are free; middle clues reward deliberate digging; the deep truth is DEFENDED. Together they invert the Vale: the empty valley is not empty, the crown is not a prize, and the guide is not a guide.
+
+## 1. The Silence was a PAYMENT (the recontextualizing truth)
+
+**Truth**: a hundred years ago the Vale's High King, Authun, faced a god-debt he could not pay - years of hoarded luck, broken sky-oaths, and a war won by an oath that should have lost it, compounding under the Storm-court's interest until the collection due was EVERYONE. His law-speaker found the only clause that could satisfy it: a substitution. The Vale paid with its NAMES. Every clan, every grave-name, every story of the Vale was torn from Skorn's Ledger and taken into escrow by the presence now called the Quiet God - which is not a god, but the ESCROW itself: the shape the held names make. The people did not die; they walked out of a valley they could no longer remember owning, and the world forgot them within a season. The returning clans are their DESCENDANTS, guided home without knowing it. The barrows the newcomers loot are their own great-grandmothers. The door-stone dead asking for names are asking their own kin.
+
+- **Surface** (free): the dead are polite and ask only for names; the ruins' customs fit the newcomers' customs eerily well (the same hearth-shapes, the same door-stone rites); no one, anywhere, has ever named a clan OF the old Vale.
+- **Middle** (a dig): Kilnborn trade-records name the old clans - and several names are one vowel-shift from the returning clans' own (Vosk/Vosca, Mool/Muell); a freed Marrow dead (via a true name) recognizes the player's clan-marks and weeps; rook gossip: the colonies' contract-ledgers still hold UNEXPIRED message contracts addressed to clans "nobody has ever heard of."
+- **Deep** (defended): the full shape - substitution, escrow, descent - assembled only from a Skorn's-Count Deepwalk at high truth, a guested dead's testimony (Halla's walk), or the Kilnborn's highest-priced answer. Aud will confirm it ONLY to someone who already holds two of the three legs, and her confirmation comes with the weight of #3.
+
+## 2. The crown is the DEBT INSTRUMENT
+
+**Truth**: the crown of the Vale was never regalia. It is the collateral: the physical instrument in which the unpaid REMAINDER of Authun's debt lives (the names bought a century of forbearance, not forgiveness - the Weather-Debt Tally's number). Whoever raises the crown ASSUMES the remainder, due at the next great Reckoning. Sigrun's rite would crown a debtor; Stig Sarn would auction a bomb; Clan Sarn's garbled founding trust ("the crown must not be raised until the debt is paid") is the literal terms of custody, kept by people who no longer know they are trustees. The lawful outs are real: pay the remainder DOWN first (generations of deliberate tithe-craft), find Erda's Third Answer (pay it in something other than names or ruin), or win the Unnamed's Pleading (prove over-collection and void the remainder). A player can also simply LET a rival take it - and inherit the Vale that follows.
+
+- **Surface**: Sarn's watchers guard a barrow no one may name; Gest the drunk law-speaker mutters that the old word for crown, "hoddgild," is an accounting term; Aud goes quiet, every time, at crowning talk - and Aud is never quiet.
+- **Middle**: the Sarn founding trust recited by a dying Hallgerd to someone she chooses to trust; the Weather-Debt Tally acquired and half-read; Gest sober for one terrible afternoon, walking the player through what "hoddgild" means in Skorn's ledger-grammar.
+- **Deep** (defended): the Tally fully read (needs Kilnborn help, priced brutally) or the crown-barrow itself breached (Sarn's watchers, then the Marrow Court's oldest and least polite dead, then the instrument's own presence). Holding the full truth makes the player the most important person in the Vale and cannot be un-known: every crown-clock in the pack re-prices around them.
+
+## 3. Blind Aud wrote the bargain
+
+**Truth**: Aud was Authun's law-speaker. She found the substitution clause, drafted it, and spoke it at the king-stone - and the clause bound its DRAFTER as surety: she cannot die, age past what she is, or leave the Vale's circuit until the debt fully settles, in repayment or in repetition. A century alone with the moot-stones taught her patience and grief and steering: she gathered the descendants home because the debt can only be settled by the debtor line. She is not a villain; she is the author of a desperate contract trying to close it without a second Silence - but she has ONE unshareable bias: any settlement that ends her surety. Repetition would. So would repayment. She has caught herself, at three-in-the-morning moments across a hundred years, unsure which she is steering toward, and it is the only thing that frightens her.
+
+- **Surface**: no one remembers Aud young; she knows drove-road shortcuts no living person taught her; the Kilnborn - who trade with everyone - have never once traded with Aud, or said her name.
+- **Middle**: her law-speech uses constructions Gest identifies as pre-Silence court grammar; a freed dead, seeing her at a distance, bows the way one bowed to the KING'S household; her first rune-stick (the draft) surfaces in a barrow her advice steered the player away from, twice, gently.
+- **Deep** (defended): her own confession - given only to someone holding the rune-stick or the Pleading's evidence; or the rooks' aerial account of the last night, which describes the law-speaker at the king-stone reading, and the reader did not leave with the others. Her doctrine file carries this from Day 0: `holds: any settlement ends me | standing | context: all crown and Silence counsel | src: the bargain's surety clause`.
+
+## Standing GM notes
+
+- **The three secrets interlock by design**: #1 makes the player's investigation personal (their own dead), #2 makes the endgame a choice instead of a race, #3 makes the best adviser in the Vale a compromised one. Reveals land best in that order, but play honors whatever order the digging earns.
+- **The Quiet God never speaks, bargains, or appears.** It is escrow: presence, weight, and terms. All drama near it comes from the living and the dead, never from a villain monologue. There is no villain in this pack; there is a contract.
+- **The Court changes as names return** (arcs.md): every freed dead subtly thins the Quiet God's escrow. Enough namings and the WEATHER starts to notice. The pack tracks this as a hidden clock the player is filling without knowing it - the mystery's fuse.
+- **Succession truth**: secrets don't reset on a chief's death. The heir inherits the clan's RECORDED knowledge; the dead chief's unwritten suspicions die with them. What was never written was never known.

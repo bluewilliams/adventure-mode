@@ -15,6 +15,7 @@ premise: "A new boss with a couple of loyal guns starts taking pieces of Calder 
 player_role: "The BOSS of a brand-new outfit - not a soldier, not an associate. You give the orders; your people carry them and carry tales."
 question: "When Repeal comes - and it is coming - what is left standing under your name?"
 campaign: saga  # the trade dies; Calder Bay, and whatever you became, does not
+length: campaign  # the long game
 scale: outfit   # the outfit layer is live from scene one: units, Operations.md, the outfit command
 dials:
   lethality: high          # guns are loud, rare, and permanent; the ladder of coercion exists because killing is expensive

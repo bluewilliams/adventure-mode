@@ -14,7 +14,8 @@ blurb: "Your idol group just debuted - and learned what the songs are FOR. Hunt 
 premise: "In Haneul City, idol groups are secret wardens: every true performance re-weaves the Bright Chorus, the old song that keeps the Hush beneath the city. The newest group in the city has five members, one debut single, and no idea what they just signed up for. The Hush eats music, laughter, and the sound of your name in a friend's mouth - and lately it is hungry."
 player_role: "The newest member of the idol group VERA5 - dancer, rapper, or vocalist, chosen at creation. Onstage you are a performer. After midnight you are a hunter."
 question: "Can the newest group in Haneul City keep the Bright Chorus alive to the Hundredth Encore?"
-campaign: saga  # the Encore comes; Haneul City, and the band, play on
+campaign: saga  # SHORT SEASONS: each Question arc resolves in about a dozen table nights; wins open season two, re-dealt
+length: season  # a real ending every dozen or so nights, built to replay re-dealt
 audience: family
 dials:
   lethality: low           # danger is real, injury is a dimming, and NO ONE DIES ONSTAGE (house rule)
@@ -30,6 +31,7 @@ house_rules:
   - "LIGHTSTICKS ARE REAL: a fan's lightstick holds a spark of genuine joy. The group's fandom (the Lumen) is a faction with agency - their belief is ward-fuel, their disappointment is measurable, and they must never find out the hard way."
   - "MUSIC IS THE MAGIC: there are no spells. There are songs - learned, remembered, stolen, and sung back. Knowing a song's story is knowing its power (gm/songbook.md)."
   - "THE READ-ALOUD RULE: this table's prose is written for a young reader to read out loud - short sentences, warm common words, names easy to say. If a sentence would make a kid stumble, it gets a simpler one."
+  - "SEASONS, NOT SAGAS: the Hundredth Encore is designed to be REACHED - about a dozen nights of play, payoffs early and often. A won season offers three doors: season two in the changed city (re-dealt: new forgotten songs, new district patterns, a new face in MONO's story), the same pack fresh in a new world, or a different game entirely. The second run must surprise a kid who knows the first run's twist."
 era:
   setting: "Haneul City, present day - a coastal city of stages, subway lines, school uniforms, and rooftop shrines nobody looks at twice. Modern world, secret underneath."
   exists: [phones and group chats, dance practice rooms, street food, subway cards, school exams, fan meets, rooftop HVAC mazes, the old shrine bells nobody rings anymore]

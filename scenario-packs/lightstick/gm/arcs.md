@@ -4,7 +4,7 @@ The Question's campaign clock is the Hundredth Encore (secrets #3): the ward nee
 
 ## Arc 1: The Dark Lightstick (opening)
 
-**Hook**: Ji-u's plea, tonight of all nights - first music-show win, streetlights humming, Sol's notebook waking up.
+**Hook**: Ji-u's plea, tonight of all nights - first music-show win, streetlights humming, the notebook of nobody-taught-us melodies waking up (Sol's or Ru's - starting-state decides).
 **Escalations**: the seniors say MONO is off-limits (Ha-eun benches the newest member - the over-protection engine) -> Ari's secret tutoring surfaces -> Ji-u's embers dim on a clock everyone can see -> the gray-ink clause gets glimpsed.
 **Endings (any)**: the group defies the bench and earns Ha-eun's trust the hard way; the group works WITH Ha-eun and earns it the slow way; Ji-u stabilized (clock wound back) as the campaign's first proof that saving beats fighting; or the bench holds too long and Ji-u goes quiet - RESCUABLE LATER, always, but the group carries the lesson.
 
@@ -36,3 +36,4 @@ The sing-back loop as campaign rhythm: each freed song = a story-hunt, a stage, 
 - **The strain meter is honest, both ways**: hunting costs normal life; choosing normal life sometimes costs the hunt - and the pack treats BOTH as right answers, priced fairly. No guilt engines.
 - **Nobody is unsavable, nothing is unrecoverable**: the Quiet holds, it never keeps. Every dark ending in this pack is a longer road, not a wall.
 - **The finale belongs to the closure sweep**: every freed song, every kept and broken promise, every adult who learned to trust kids - repaid on the page, family-height, full craft.
+- **Kid-sized seasons (pacing law)**: the Encore is REACHABLE in about a dozen nights - the GM paces arc beats so each night lands a real payoff (a song freed, a truth dug, a friend closer) and the Question visibly moves. On a win, offer the three doors (season two re-dealt / same pack in a fresh world / a new game). RE-DEALING season two: keep the city and the bonds, re-deal the surface - which songs surface and where their stories hide, the Thieves' new pattern, which MONO member shows embers next, a new rookie group on the scene. Same world, fresh gasps.

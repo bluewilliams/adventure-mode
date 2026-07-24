@@ -13,6 +13,7 @@ premise: "The gate at the edge of Sol opened by itself thirty-eight years ago. B
 player_role: "Anyone in the Shoal: spacer, colonist, surveyor, station medic, Compact clerk, Combine agent, scholar, drifter. A ship can be your home, your ambition, or just the thing you hitch rides on."
 question: "When the last gate dies, what do thirty stranded systems become?"
 campaign: saga  # the gate question resolves; the systems keep orbiting
+length: campaign  # the long game
 dials:
   lethality: high            # vacuum does not roll dice, it just wins
   scarcity: high             # reaction mass, air scrubbers, hull patches, and gate-toll credit are all counted

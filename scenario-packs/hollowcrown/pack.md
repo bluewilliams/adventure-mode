@@ -13,6 +13,7 @@ premise: "Three hundred years ago the dwarves of Karag Vhol sealed their own gat
 player_role: "A newcomer or local in the Grayreach, the frontier province above the Deeproads"
 question: "What opened the sealed gates from below, and can anything close them again?"
 campaign: saga  # the deep-realm answers; the province lives with the answer
+length: campaign  # the long game
 dials:
   lethality: high            # steel is fast, falls are far, the dark is patient
   scarcity: medium-high      # coin exists, but light, air, and trust are counted

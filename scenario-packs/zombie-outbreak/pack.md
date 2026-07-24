@@ -13,6 +13,7 @@ premise: "The infection came north with the evacuation convoys. Then the snow ca
 player_role: "A survivor in and around Iron Lake, MN (pop. 4,300, formerly)"
 question: "Does Iron Lake live to see the thaw?"
 campaign: saga  # the thaw answers the Question; the world and whoever survives it go on
+length: campaign  # the long game
 dials:
   lethality: high          # death is one bad night away
   scarcity: high           # ammo counted by the round, warmth is a resource

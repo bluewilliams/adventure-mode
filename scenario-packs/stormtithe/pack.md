@@ -15,6 +15,7 @@ premise: "A diminished clan takes land in the Tithe Vale beside four rival clans
 player_role: "The CHIEF of Clan {named at creation} - first among the council, never above the law. You rule people who argue back."
 question: "Can a broken clan raise the Vale's crown before the Silence comes back for it?"
 campaign: saga  # chiefs die; the clan, and the Vale, go on
+length: campaign  # the long game
 scale: outfit   # the clan runs on the outfit layer from scene one: war-bands, herds, the seasonal ledger, the council
 dials:
   lethality: high          # spears, winters, childbed, and the weather itself; nobody is plot-armored, including the chief

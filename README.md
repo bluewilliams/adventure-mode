@@ -2,6 +2,8 @@
 
 Persistent, high-stakes tabletop-style campaigns with Claude as your Game Master, backed by an Obsidian vault so the world NEVER forgets.
 
+> **Just want to play?** [adventure-mode.com](https://adventure-mode.com) is the hosted version: add one connector to Claude and you're playing in about two minutes - browser, desktop, or the mobile app, with cloud saves and server-side dice. $5/mo, 7-day free trial. This repo is the same game, free, self-hosted, and where all of it is built in the open.
+
 Forked from [memory-mode-portable](https://github.com/bluewilliams/memory-mode-portable): the same tiered memory architecture that gives Claude Code continuity across work sessions, re-aimed at the oldest problem in AI-run RPGs - the DM who forgets your party, your wounds, and the villain's name the moment the context window rolls over.
 
 ## What you get
@@ -100,7 +102,12 @@ If you also run [memory-mode-portable](https://github.com/bluewilliams/memory-mo
 
 ## Playing on other surfaces
 
-Adventure Mode is built for Claude Code (it needs file read/write for memory and a shell for honest dice). Browser/mobile play against the same vault is on the roadmap via MCP.
+Two ways to play, same game:
+
+- **Self-hosted (this repo, free)**: run it locally with Claude Code - file read/write for memory, a shell for honest dice, everything in this repo, yours forever.
+- **Cloud ([adventure-mode.com](https://adventure-mode.com), $5/mo)**: the hosted MCP connector - play from the claude.ai browser, the desktop app, or the Claude mobile app against a private cloud vault, with server-side dice, cross-device resume, and automatic backups. Add the connector once and the same campaign follows you everywhere (a Steam Deck's browser works fine).
+
+Both run the same protocol and the same pack format: a world built on one plays on the other, and hybrid local-plus-cloud play against a single vault is supported via the built-in sync.
 
 ## Sharing a world
 

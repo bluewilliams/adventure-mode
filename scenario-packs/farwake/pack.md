@@ -8,6 +8,9 @@ A dark space-epic pack for Adventure Mode. Thirty dying star systems, stations a
 pack: farwake
 version: 0.2.0
 genre: dark space epic (full-spectrum sandbox: ships, stations, worlds, politics, exploration)
+title: "FARWAKE"
+tags: [space, far-future, stations, faction-politics, salvage]
+blurb: "Thirty dying star systems, stations and dome colonies, ships and the people who fix them - and faction politics one bad spark from fire."
 tone: gritty
 premise: "The gate at the edge of Sol opened by itself thirty-eight years ago. Beyond it: the Shoal, a lattice of star systems built by a civilization that fled something, and the gates have been quietly dying ever since."
 player_role: "Anyone in the Shoal: spacer, colonist, surveyor, station medic, Compact clerk, Combine agent, scholar, drifter. A ship can be your home, your ambition, or just the thing you hitch rides on."

@@ -8,6 +8,9 @@ A crime-family ascension pack for Adventure Mode. Brickport, New Jersey, 1979. Y
 pack: omerta
 version: 0.1.0
 genre: crime drama
+title: "OMERTA"
+tags: [mafia, 1970s, ascension, loyalty]
+blurb: "Brickport, New Jersey, 1979. You are nobody in the Marchetti family. That can change."
 tone: gritty
 premise: "An associate on the fringe of the Marchetti family starts earning. The ladder goes up forever; so does the drop."
 player_role: "An associate (not yet made) connected to the Marchetti crime family of Brickport, NJ"

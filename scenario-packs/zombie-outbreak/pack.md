@@ -8,6 +8,9 @@ A zombie outbreak pack for Adventure Mode. Northern Minnesota, deep winter, five
 pack: whiteout
 version: 0.1.0
 genre: survival horror
+title: "WHITEOUT"
+tags: [zombies, survival, winter, small-town]
+blurb: "Northern Minnesota, deep winter, five weeks after the world went quiet. The cold is as patient as the dead."
 tone: gritty
 premise: "The infection came north with the evacuation convoys. Then the snow came, and nobody left."
 player_role: "A survivor in and around Iron Lake, MN (pop. 4,300, formerly)"

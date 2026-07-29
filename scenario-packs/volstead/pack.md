@@ -8,6 +8,7 @@ A crime-empire pack for Adventure Mode. Calder Bay, on the Great Lakes, 1926. Yo
 pack: volstead
 version: 0.1.0
 genre: crime
+tone: gritty
 title: "VOLSTEAD"
 tags: [prohibition, gangsters, empire-building, strategy, politics]
 blurb: "Run your own outfit in a 1926 lake city already carved up by three gangs, a bought city hall, and one honest federal agent. Booze, dope, rackets, elections - build an empire, go legit, or take the fall. Repeal is coming."

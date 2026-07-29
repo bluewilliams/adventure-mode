@@ -8,6 +8,7 @@ The first family pack for Adventure Mode. Haneul City, tonight, under the stage 
 pack: lightstick
 version: 0.1.0
 genre: modern
+tone: warm
 title: "LIGHTSTICK"
 tags: [k-pop, demon-hunters, family, music, urban-fantasy]
 blurb: "Your idol group just debuted - and learned what the songs are FOR. Hunt the Hush, the demons that steal music and joy, between dance practice and school nights. Family-friendly: real stakes, real mysteries, nobody dies onstage."

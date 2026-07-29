@@ -8,8 +8,9 @@ A generational clan-saga pack for Adventure Mode. The Tithe Vale, in the iron ye
 pack: stormtithe
 version: 0.1.0
 genre: fantasy
+tone: mythic
 title: "STORMTITHE"
-tags: [clan-saga, mythic, generational, strategy, mystery]
+tags: [clan-saga, mythic, iron-age, generational, strategy, mystery]
 blurb: "Lead a broken clan back into a valley emptied by a forgotten catastrophe. Seasons, herds, feuds, gods who collect debts in weather, and a crown nobody should want. Your chief will die. Your clan goes on."
 premise: "A diminished clan takes land in the Tithe Vale beside four rival clans, three inhuman neighbors, and a hundred years of graves nobody can name. The gods tithe the living; the valley remembers what the living cannot."
 player_role: "The CHIEF of Clan {named at creation} - first among the council, never above the law. You rule people who argue back."

@@ -8,6 +8,9 @@ A dark high-fantasy pack for Adventure Mode. A frontier province above a dead dw
 pack: hollowcrown
 version: 0.1.0
 genre: dark high fantasy (overworld sandbox + megadungeon)
+title: "HOLLOWCROWN"
+tags: [dark-fantasy, medieval, frontier, underground, dwarven-ruins]
+blurb: "A frontier province above a dead dwarven deep-realm, whose sealed doors have started opening from below."
 tone: gritty
 premise: "Three hundred years ago the dwarves of Karag Vhol sealed their own gates from the inside and were never heard again. Last spring, the doors began to open."
 player_role: "A newcomer or local in the Grayreach, the frontier province above the Deeproads"

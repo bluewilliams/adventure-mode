@@ -29,6 +29,13 @@ If the player's home is a hull, these three are (or become) the crew. If not, th
 
 ## The board
 
+### Warden Halli Dren (Compact gate-warden, stranded)
+
+- **Who**: the Compact's gate-warden for Verren, docking within hours of the cold open - dutiful, exact, and suddenly the law of a system whose gate just died behind her.
+- **Drives**: do the job in front of her even after the jurisdiction that issued it goes dark; get her people (two deputies, one clerk) home or settled; never once be the reason a rule got somebody killed.
+- **Voice**: reads the regulation first, then does the humane thing and logs the discrepancy. Incorruptible by money; movable by evidence.
+- **Depths**: (surface) her authority now runs on habit and consent - she knows it, and watches who else notices; (middle) she has begun keeping a second, honest log of everything the registry would want falsified; (deep) by month two the question that keeps her up is not "when do we get home" but "what is a warden FOR out here" - and whoever helps her answer it earns the closest thing to a knight the Shoal will ever mint.
+
 ### Adjudicator Sellis Vaunt (Compact)
 
 - **Drives**: finish the Corvess relight before his term ends; keep the Bureau's failure pattern buried until it is someone else's pattern; be remembered as the human who saved the lattice.

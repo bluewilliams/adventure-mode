@@ -24,6 +24,8 @@ Five members, the city's biggest group, hollowed (secrets #2): their warmth was 
 
 ## The Hush Court - the dark under the city
 
+**Agenda**: feed on unloved sound and grow toward a city with nothing left to hum - hunger, not conquest; every forgotten song makes it stronger and every remembered one starves it.
+
 Not an army: an ecology of hungers, family-scary, never gory. In rising order:
 - **Hushlings**: sound-eaters the size of cats, drawn to lonely noises - a phone ringing in an empty room, one kid laughing alone. Residue: the flat spot where an echo should be.
 - **Volume Thieves**: person-shaped silhouettes that collect louder things - a street performer's crowd, a playground at recess. They work districts in a pattern (Places.md tracks it; kids CAN out-map them).

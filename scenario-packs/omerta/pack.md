@@ -18,14 +18,14 @@ question: "How high does a nobody climb before the family notices what he is?"
 campaign: saga  # the ladder ends; Brickport does not
 length: campaign  # the long game
 dials:
-  lethality: high          # violence is rarer than WHITEOUT and more permanent
+  lethality: high          # a body is an EVENT, never a beat: rare, telegraphed, and forever
   scarcity: medium         # money flows; trust and safety are the scarce resources
   dice: hidden
   menus: major
   pacing: slow-burn        # tension lives in rooms, debts, and silences
 death_rule: "Permadeath. Prison is the other death: a life sentence retires the character; the world persists."
 house_rules:
-  - "HEAT: a police-attention clock (GM/Threads.md). Bodies, flash, and sloppiness raise it; discipline and payoffs lower it. High heat changes what the world dares to do near you."
+  - "HEAT: a police-attention clock, 0 to 6, tracked in GM/Threads.md. Bodies, flash, and sloppiness raise it; discipline and payoffs lower it. At 0-1 the neighborhood works normally; at 3, surveillance is assumed and made men stop taking meetings indoors; at 5, warrants move and weak links get pulled in for questioning; at 6, the task force takes its shot at whatever it holds - indictments land, and somebody the player knows is in the paper. High heat changes what the world dares to do near you, in both directions."
   - "STANDING: your rung on the ladder - outsider / connected / earner / made / capo / administration. Standing gates rooms, jobs, and protection. It moves on earning, discipline, and blood, never on asking."
   - "Carrying a gun is a choice with weight: it raises what stops mean, what searches find, and what juries decide."
 era:
@@ -63,8 +63,8 @@ Character creation starts with three questions the GM will ask: how you're conne
 
 Skip the interview and be playing in a minute; who they are emerges at the table. Or build your own from the creation questions.
 
-- **Nicky Averona**, bookkeeper's nephew. Grew up running numbers slips; can read a ledger like scripture and lie to anyone but his mother. The family thinks he is soft. He is not soft; he is patient.
-- **Frank Della Rosa**, dock loader with debts. Strong back, quick temper, three weeks behind to a shylock, and one favor owed to him by exactly the wrong person. Wants one big year and out; nobody gets one big year and out.
+- **Tommy Averona**, bookkeeper's nephew. Grew up running numbers slips; can read a ledger like scripture and lie to anyone but his mother. The family thinks he is soft. He is not soft; he is patient.
+- **Mike Della Rosa**, dock loader with debts. Strong back, quick temper, three weeks behind to a shylock, and one favor owed to him by exactly the wrong person. Wants one big year and out; nobody gets one big year and out.
 - **Carla Moretti**, cocktail waitress at the Starlight Room. Hears everything, forgets nothing, banned from the casino floor in Atlantic City under a different name. Saving for a bar of her own with money that keeps needing to be lent.
 
 ## Starting situation

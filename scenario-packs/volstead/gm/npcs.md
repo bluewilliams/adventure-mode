@@ -1,6 +1,6 @@
 # NPCs (GM sheets - seeds, grown by play)
 
-Files under `NPCs/` at seeding for anyone the opening touches; the rest instantiate on first contact. Every named person: drives, a voice anchor, a price OR a limit. Crew candidates carry FLAW HOOKS - the engine grows their traits and doctrine from play; the pack only loads the springs.
+Files under `NPCs/` at seeding for anyone the opening touches; the rest instantiate on first contact. Every named person: drives, a voice anchor, a price OR a limit. Crew candidates carry FLAW HOOKS - seeds that play grows into traits and doctrine; the pack only loads the springs.
 
 ## The player's starting people (seed into the outfit)
 
@@ -25,6 +25,16 @@ Files under `NPCs/` at seeding for anyone the opening touches; the rest instanti
 - **Mae Carrick** - the Widow. Grief hardened into governance. Her word, once given, has never broken; her proof-clock is a bomb her own dock boss keeps feeding. What she does when the truth lands depends entirely on WHO hands it to her, HOW, and holding WHAT.
 - **Agent Everett Cole** - eleven honest feet (his squad's five pairs, minus the drink, the debt, and the crush). Photographs everything. Fair to a fault; incorruptible without exception. The player's most dangerous constant and, played long and clean, something almost like an ally against worse.
 
+## The board (run from these when the harbor speaks)
+
+### Brendan Carrick (Carrick dock-crews leader; secrets #2 runs through him)
+
+- **Drives**: bury the Declan frame so deep the harbor itself forgets; be the brother Mae believes he is, because the alternative is being what he knows he is.
+- **Doctrine**: loyalty as camouflage - the most devoted man in any room is the one with the most to hide, and he knows it, which is why he watches devotion in others.
+- **Limit**: Father Muldane's life. He has planned the priest's death four times and each time found a reason the plan was flawed. The reasons are running out and he knows what that means about him.
+- **Voice**: warmer than his reputation; asks after your family by name; goes quiet, not cold, when Declan is mentioned.
+- **Depths**: (surface) he double-checks Mae's proof-clock sources before she gets them; (middle) three of her eight ticks are his manufacture; (deep) the night itself - what actually happened on that dock, and the one witness he could not bring himself to silence.
+
 ## Voice anchors (one line each, read before they speak)
 
-Steppy: short sentences, "boss." Rose: better questions back. Bricks: apologizes mid-swing. Willie: agrees, then silence. Pearl: whispers even in private. Aldo: percentages as adjectives. Muldane: absolution grammar, even ordering lunch. Alvey: verbs, no adjectives. Maxine: everything is a headline draft. Georges: French when lying, English when dealing. Crane: never hurries. Fava: compliments with hooks in them. Voss: contract clauses as small talk. Mae: present tense about Declan. Cole: writes while you talk, quotes you back later, verbatim.
+Steppy: short sentences, "boss." Rose: better questions back. Bricks: apologizes mid-swing. Willie: agrees, then silence. Pearl: whispers even in private. Aldo: percentages as adjectives. Muldane: absolution grammar, even ordering lunch. Alvey: verbs, no adjectives. Maxine: everything is a headline draft. Georges: French when lying, English when dealing. Crane: never hurries. Fava: compliments with hooks in them. Voss: contract clauses as small talk. Mae: present tense about Declan. Brendan: asks after your family by name; goes quiet when Declan comes up. Cole: writes while you talk, quotes you back later, verbatim.

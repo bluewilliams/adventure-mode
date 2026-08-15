@@ -8,6 +8,7 @@ Each has an agenda, resources, and a doctrine, and acts on the timeline in `secr
 - **Agenda**: keep the lattice alive. The Compact pours its wealth into gate repair because commerce, law, and its own authority all die with the gates. Its Gate Restoration Bureau is the largest engineering effort in the Shoal, and its flagship project (relighting the dead gate at Corvess) is two years from completion.
 - **Doctrine**: order first, precedent forever. The Compact moves slowly, rules narrowly, and never forgets a filing. It does not do mercy; it does process, which is sometimes worse and occasionally the only fair thing in the Shoal.
 - **Weaknesses (discoverable)**: the Restoration Bureau's repaired gates FAIL again within years and the Bureau is burying the pattern (records); Vaunt is quietly selling registry data to the Combine to fund the Corvess project (cross-faction leverage); the Vekt bloc's support rests on a contract with a expiration date nobody else has read (social/Ssorek knows the form of it).
+- **Fracture**: the Restoration Bureau's own chief engineer has run the failure-pattern numbers herself and believes the Corvess relight is a mistake that will bankrupt the Shoal's last good yards; she stays quiet because Vaunt signs her funding, and she keeps her own copy of the data where the Bureau cannot bury it.
 
 ## The Hearth Combine
 
@@ -33,3 +34,12 @@ Each has an agenda, resources, and a doctrine, and acts on the timeline in `secr
 
 - **What**: the Meridian evacuation network's caretaker intelligence, still running after a hundred thousand years, distributed through the lattice itself. GM truth in full in `secrets.md`. Its work: the gates are not FAILING. The Custodian is burning them, one by one, on a schedule, exactly as designed: an evacuation network is supposed to be destroyed behind the evacuees. The Compact's repairs fight it; it does not fight back, it just re-burns, patiently, because it is the only thing in the Shoal that knows what the network would otherwise lead HERE.
 - **Purpose**: the pack's tragedy and hinge. The thing killing the Shoal's lifelines is its last line of defense, and every faction's rational agenda makes the real problem worse. The crew will hate it, then understand it, and what they do after understanding is the campaign.
+
+## Day-0 stances (who loves whom, before the player exists)
+
+- Compact -> Hearth Combine: publicly correct, privately contemptuous of the claim-rush - and quietly dependent on Combine money (Vaunt's registry-data sales).
+- Hearth Combine -> Free Wakes: predatory; views flotilla crews as squatters on future claims and would love to hire their pilots out from under them.
+- Free Wakes -> Hearth Combine: distrust bordering on hatred; every flotilla keeps a story about a crew the Combine bought out cheap and scattered.
+- Ossuar -> Hearth Combine: hostile on sight near tended dead; the claim-rush reads as desecration arithmetic, not commerce.
+- Ossuar -> Compact: cold correctness; the registry once sold a tended site's coordinates and the Ossuar have never filed anything with it since.
+- Free Wakes -> Compact: wary usefulness; tolls are theft, but lane law has pulled more than one flotilla out of a fire.

@@ -10,7 +10,7 @@ version: 0.1.0
 genre: dark high fantasy (overworld sandbox + megadungeon)
 title: "HOLLOWCROWN"
 tags: [dark-fantasy, medieval, frontier, underground, dwarven-ruins]
-blurb: "A frontier province above a dead dwarven deep-realm, whose sealed doors have started opening from below."
+blurb: "A frontier province above a dead dwarven deep-realm, whose sealed doors have started opening from below. Whatever unsealed them did it from the inside - and you live on top. Nobody is coming; the crown is a long way away."
 tone: gritty
 premise: "Three hundred years ago the dwarves of Karag Vhol sealed their own gates from the inside and were never heard again. Last spring, the doors began to open."
 player_role: "A newcomer or local in the Grayreach, the frontier province above the Deeproads"
@@ -19,7 +19,7 @@ campaign: saga  # the deep-realm answers; the province lives with the answer
 length: campaign  # the long game
 dials:
   lethality: high            # steel is fast, falls are far, the dark is patient
-  scarcity: medium-high      # coin exists, but light, air, and trust are counted
+  scarcity: medium-high      # coin exists, but light, air, and trust are counted - and below the doors, rations count like light: the deep feeds nobody
   dice: hidden
   menus: major
   pacing: expedition rhythm  # breathe on the surface, spend yourself in the deep

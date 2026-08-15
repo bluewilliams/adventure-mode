@@ -20,6 +20,8 @@ Every clan runs at the outfit grain (Running at Scale): instantiate each with un
 **SECRET LEDGER TRUTH**: Ittra is the Kilnborn's largest debtor by far - three generations of trade-goods advanced against "future considerations" nobody living has read the fired-clay terms of. Matriarch Unn Ittra suspects the debt is the kind you pay in something other than goods and is quietly marrying her family OUT of the direct line of obligation (see secrets.md #3 adjacency).
 **Disposition**: arrives with gifts, a marriage sketch, and a loan offer scaled to your desperation. Genuinely useful, never free.
 
+- **Fracture**: Unn's eldest son, **Joran Ittra**, has refused his fourth arranged betrothal and argues that alliances bought are alliances owed - he wants the clan to earn one loyalty free, and will not say so where his mother can hear it. Yet.
+
 ## Clan Dreng - the worthy shall raise the crown
 
 **Agenda**: sanctify. Sigrun Chief-Priestess preaches that the Silence was the gods' judgment on an unworthy king, and the Vale will only be safe under a WORTHY one - crowned by rite, at the king-stone, by her.
@@ -36,6 +38,8 @@ Every clan runs at the outfit grain (Running at Scale): instantiate each with un
 **Units**: the gray levy | strength 70 | quality green | loyalty: to bread | tags: hungry. Brekka's own | strength 8 | quality veteran | loyalty: solid.
 **Ledger truth**: ~9 cattle-worth/season against the Vale's biggest upkeep - Mool runs a structural deficit every Long Dark, and Brekka knows the exact size of the hole to the half-sheep.
 **Disposition**: proud, prickly, impossible to buy cheaply because charity insults them - but FEED THEM WITH RESPECT (work, trade, fosterage, a place at the feast) and Mool is the loyalest spear-wall in the Vale.
+
+- **Fracture**: Brekka's spear-second, **Havard**, thinks the endless arithmetic is slow starvation with extra steps, and has quietly started sounding out Vosk's raiding doctrine as a faster fix - he has not acted on it, but he is counting spears too.
 
 ## Clan Sarn - the old blood
 
@@ -65,3 +69,12 @@ Talking rook-colonies: messengers, oath-witnesses, gossips. Vain, mercenary, con
 ## The Storm-court (the weather is a faction)
 
 Varek's tithe-collection runs as the pack's exogenous-event ladder: unpaid tithes and broken sky-oaths accumulate as HEAT (the ratio dial reskinned: luck owed vs luck paid). The storm's collections are never random-feeling: the GM prices them from the ledger of what was hoarded and what was sworn. A pious-and-paid clan gets weather; a hoarding, oath-breaking clan gets WEATHER.
+
+## Day-0 stances (who loves whom, before the player exists)
+
+- Vosk -> Dreng: open contempt - "crowns are for people who need permission."
+- Ittra -> everyone: transactional warmth; no clan is an enemy that might still owe them.
+- Dreng -> Sarn: theological rivalry; Sigrun's rite frames Sarn's bloodline claim as an obstacle worthiness must clear.
+- Mool -> Vosk: quiet resentment - raiders take grain Mool cannot spare and cannot afford to fight over.
+- Sarn -> everyone: courteous, closed distance that the other four read as superiority, because it is.
+- Vosk -> Mool: the contempt of the wolf for the granary - and the wolf's secret arithmetic that granaries are why anyone survives a Long Dark.

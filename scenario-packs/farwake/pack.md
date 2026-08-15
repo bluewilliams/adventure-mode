@@ -10,7 +10,7 @@ version: 0.2.0
 genre: dark space epic (full-spectrum sandbox: ships, stations, worlds, politics, exploration)
 title: "FARWAKE"
 tags: [space, far-future, stations, faction-politics, salvage]
-blurb: "Thirty dying star systems, stations and dome colonies, ships and the people who fix them - and faction politics one bad spark from fire."
+blurb: "Thirty dying star systems, stations and dome colonies, ships and the people who fix them - and faction politics one bad spark from fire. You have a ship, a debt, and a chart nobody else believes. Out here, air is money and the dark is listening."
 tone: gritty
 premise: "The gate at the edge of Sol opened by itself thirty-eight years ago. Beyond it: the Shoal, a lattice of star systems built by a civilization that fled something, and the gates have been quietly dying ever since."
 player_role: "Anyone in the Shoal: spacer, colonist, surveyor, station medic, Compact clerk, Combine agent, scholar, drifter. A ship can be your home, your ambition, or just the thing you hitch rides on."
@@ -33,7 +33,7 @@ house_rules:
 era:
   setting: "the Shoal, 38 years after the Sol Gate opened - hard-edged spacefaring"
   exists: [fusion torches, spin gravity, vac-suits, prosthetics, fabbers (slow, fed by salvage), the Meridian gates (alien, dying)]
-  rare: [Meridian artifacts, terraforming capacity (Combine-held), gene clinics, weapons above small-arms scale]
+  rare: [Meridian artifacts, terraforming capacity (Combine-held), gene clinics, weapons above small-arms scale, cold-sleep berths (Meridian-derived, fabber-copied, and honest crews distrust them - most bodies simply endure the burn)]
   absent: [human-built FTL, artificial gravity, energy shields, teleportation, mind uploading, sapient human-built AI, fast terraforming; the quiet drive exists only in the Vault]
 progression: trait-based (default)
 requires: []
@@ -58,9 +58,9 @@ Character creation starts with three questions the GM will ask: who are you in t
 
 Skip the interview and be playing in a minute; who they are emerges at the table. Or build your own from the three questions above.
 
-- **Cass "Patch" Odell**, hull-rat on the salvage cutter. Grew up in Verren's belt, can fix anything with enough tape and profanity, has never been through a gate. Was on the claim when the flare hit; home is the hull, and the hull knows it.
-- **Dr. Imani Sesay**, Meridian Down's only trauma surgeon. Came through the gate eight years ago chasing a research post that never materialized; stayed because people kept needing sewing up. The colony's rationing math is about to become her problem.
-- **Tomas Vray**, Compact customs clerk on High Verren. Knows every manifest, every smuggler, and every rule worth bending; filed one honest report too many and got posted to the edge of nowhere. The gate just made nowhere the center of everything.
+- **Cass "Patch" Odell**, hull-rat on the salvage cutter. Grew up in Verren's belt, can fix anything with enough tape and profanity, has never been through a gate. Was on the claim when the flare hit and heard her cousin's suit channel go quiet mid-word; home is the hull, and the hull knows it.
+- **Dr. Imani Sesay**, Meridian Down's only trauma surgeon. Came through the gate eight years ago chasing a research post that never materialized; stayed because people kept needing sewing up - and has never forgiven herself for the patient she lost the week the gate first flickered. The colony's rationing math is about to become her problem.
+- **Tomas Vray**, Compact customs clerk on High Verren. Knows every manifest, every smuggler, and every rule worth bending; filed one honest report too many and got posted to the edge of nowhere - the posting cost him a marriage he still writes letters to. The gate just made nowhere the center of everything.
 
 ## Starting situation
 

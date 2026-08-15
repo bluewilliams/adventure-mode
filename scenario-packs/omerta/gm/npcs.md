@@ -59,6 +59,21 @@ Starting contacts are pre-seeded: at game seed, create player-facing `NPCs/` not
 - Runs Petey; runs the wire; keeps the honest exit door open. See factions. `known: false`
 - Traits: never bluffs twice; keeps every promise, which the family would recognize as their own oldest rule if they ever looked at her straight.
 
+## Brendan Doyle - the Other Shore
+
+- **Who**: leader of the Doyle crew, holder of the docks' other half, son of the man the Marchettis put on his knees a generation ago.
+- **Drives**: erase the knee-taking - not avenge it, ERASE it: be big enough that the story stops being told; keep his brother Colm out of the parts of the business that would make Colm's opinion of him true.
+- **Doctrine**: never take the first swing in front of witnesses; pay debts early and insults never; the heroin money spends like any other money, which is the lie he has decided to live inside.
+- **Limit**: Colm. The one person whose disgust he cannot price.
+- **Voice**: soft-spoken, grammatical, deliberate - a man performing the education his father couldn't buy him.
+
+## Carmine "Junior" Lupo - the Mirror
+
+- **Who**: the player's age, the crew's other coming man, the pack's quiet morality meter - every rung the player climbs, Junior is one behind or one ahead, having paid slightly differently.
+- **Drives**: get made before his father dies of the emphysema; be somebody's answer to "who do we send?"
+- **Limit**: will not touch anything that moves through a schoolyard; everyone knows it, and it is the only thing about him nobody tests.
+- **Voice**: laughs one beat too early; quotes movies he has not seen.
+
 ## Adele Katz - the Counsel
 
 - The family's lawyer of record. `known: starts-true` (name only)

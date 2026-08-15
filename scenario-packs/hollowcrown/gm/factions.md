@@ -8,6 +8,7 @@ Each faction has an agenda, resources, and a doctrine, and acts on the timeline 
 - **Agenda**: keep the doors open and the tolls flowing. Every open door is a new trade route; every scare that closes a gate costs thousands. Sarn buys silence about incidents, underwrites delves she should not, and is quietly mapping routes the Vigil has not found.
 - **Doctrine**: everything is a contract. The Company keeps written terms to the letter and betrays every spirit. It does not murder; it forecloses, blacklists, and indentures. Its violence arrives holding paperwork.
 - **Weaknesses (discoverable)**: the toll ledgers are double-booked and an honest audit would void the crown charter (infiltration/clerical); Sarn's own deep-survey report from six years ago is the thing she most needs buried, and her surveyor is still alive to testify (see Cass Werrin, npcs.md); the Chainmen are paid in debt-forgiveness, not coin, and a person who buys out a Chainman's paper owns their loyalty (social/economic).
+- **Fracture**: Sarn's own chief auditor has seen the double-booked ledgers and told no one, terrified of what an honest tally would cost her pension and her neck; she is one bad night, one threatened clerk, or one kind ear from becoming the whistleblower that voids the charter.
 
 ## The Vigil of the Last Door
 
@@ -27,3 +28,12 @@ Each faction has an agenda, resources, and a doctrine, and acts on the timeline 
 
 - **Who/What**: surface rumor says "something opens the doors." GM truth: the Hollowed, the dwarves of Karag Vhol as the deep remade them, stone-fused, patient, still keeping their dead city to the rhythm of the Emberheart. Ruled by **Under-King Dror Vhol**, who sealed the gates three hundred years ago from the inside and has now unsealed them for one reason: something was STOLEN from the Gravemouth six years ago, and the Heart's quickening will not stop until it is returned. See `secrets.md` before running anything below the Upper Galleries.
 - **Purpose**: the pack's antagonist, tragedy, and negotiating partner all at once. The Court Below is not a horde; it is a kingdom in mourning with infinite patience and terrible manners, and every one of its moves is, by its own lights, lawful recovery of stolen property.
+
+## Day-0 stances (who loves whom, before the player exists)
+
+- Ledger Company -> Vigil: a business risk to be managed; the Company quietly bought the grove that presses the Vigil's consecrated oil, and is waiting for the right moment to mention it.
+- Vigil -> Company: believes the Company's silence-buying is provoking the deep; the seizure plan is half security doctrine, half a bid to prove it.
+- Reclaimants -> Vigil: old, live resentment - the founding-vow question (paid gatekeepers or holy warriors?) is a grudge waiting for its receipt.
+- Reclaimants -> Company: transactional and ashamed of it; sells labor and deep-knowledge to fund the homecoming, and hates every invoice.
+- Vigil -> Reclaimants: pity laced with dread - the order's oldest texts say the doors were sealed FROM THE SURFACE for a reason.
+- Company -> Reclaimants: a supplier line-item with religious complications; Sarn prices their knowledge cheap because their pride won't let them haggle.

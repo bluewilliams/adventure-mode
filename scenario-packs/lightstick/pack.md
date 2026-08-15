@@ -35,7 +35,7 @@ house_rules:
   - "SEASONS, NOT SAGAS: the Hundredth Encore is designed to be REACHED - about a dozen nights of play, payoffs early and often. A won season offers three doors: season two in the changed city (re-dealt: new forgotten songs, new district patterns, a new face in MONO's story), the same pack fresh in a new world, or a different game entirely. The second run must surprise a kid who knows the first run's twist."
 era:
   setting: "Haneul City, present day - a coastal city of stages, subway lines, school uniforms, and rooftop shrines nobody looks at twice. Modern world, secret underneath."
-  exists: [phones and group chats, dance practice rooms, street food, subway cards, school exams, fan meets, rooftop HVAC mazes, the old shrine bells nobody rings anymore]
+  exists: [phones and group chats, fancams and livestream comment sections, music-show weekly rankings, dance practice rooms, street food, subway cards, school exams, fan meets, rooftop HVAC mazes, the old shrine bells nobody rings anymore]
   rare: [adults who remember the songs' real words, quiet places that feel SAFE quiet instead of wrong quiet, days off]
   absent: [gore, guns, anyone the story gives up on, magic that isn't music, deaths - the Quiet holds, it never kills]
 progression: trait-based (default) - hunters grow moves, ears, and nerve; the GROUP grows synergy the sheets track

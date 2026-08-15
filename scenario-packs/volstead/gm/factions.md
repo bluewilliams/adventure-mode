@@ -50,3 +50,12 @@ Policy banks, clubs, credit unions under **Elias Crane**, who has run Northside'
 ## The supply - the Fontaine house
 
 Port Sarnelle, Ontario: the Fontaine brothers' export house sells legally by Canadian law, to anyone, cash. The ROUTE is the contested thing - boats, ice roads in winter, hijackers (the Carricks take a tithe of everything on the water they don't like). The Fontaines keep a ledger of every buyer. Cole would trade a year of his life for it. So would Brauer.
+
+## Day-0 stances (who loves whom, before the player exists)
+
+- Brauer: banks City Hall's status quo (a reform mayor kills the conversion timetable); watches Sorrentino's overreach with patient contempt, ready to buy the wreckage; keeps clear of the Carrick feud's optics.
+- Carrick Gang: blames Brauer for Declan and will not deal without cause; regards Sorrentino's crews as beneath a treaty, tolerated only as water customers; keeps City Hall bought exactly enough to hold the harbor precinct.
+- Sorrentino: envies Brauer's respectability; avoids open war with the Carricks only because the docks are not worth it; treats City Hall as a landlord never to be questioned - not knowing it already owns him.
+- City Hall: quietly runs Sorrentino as a licensed asset while performing neutrality; favors Brauer as the safer future partner; manages the Carricks as a necessary, untrusted nuisance.
+- The Bureau squad: aims at whichever outfit shows the worst ratio-heat (currently Sorrentino, unknowingly shielded); regards Brauer's respectability as the more dangerous long game; extends grudging respect to Mae's discipline.
+- Northside: neutral to all three downtown outfits; privately respects Brauer alone among them, and views Sorrentino as a liability the whole city will eventually pay for.

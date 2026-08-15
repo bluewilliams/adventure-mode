@@ -1,6 +1,6 @@
 # OMERTA - Arc Skeletons (GM)
 
-Skeletons, not scripts. All four run on their own clocks; two of them (Crown, Docks) are secretly connected through Nicky's heroin money. The Ladder is not an arc the world runs at the player; it is the player's own gravity, and the world responds to every rung.
+Skeletons, not scripts. The Question's campaign clock is the Crown: Sal's illness gives the family two good years, undated and undiscussable, and every rung the player climbs changes who is standing where when it stops - years away, arriving regardless. All four arcs run on their own clocks; two of them (Crown, Docks) are secretly connected through Nicky's heroin money. The Ladder is not an arc the world runs at the player; it is the player's own gravity, and the world responds to every rung.
 
 ## Arc 0: The Ladder (STANDING)
 

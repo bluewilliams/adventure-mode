@@ -33,6 +33,21 @@ Facts are flagged `known: false` until earned in play; on discovery, flip the fl
 - **Weakness**: her sister was in the Duluth convoy overrun on Highway 53; she reads the frozen horde's names on air without knowing one of them is walking in it. `known: false` (devastating late-arc reveal; handle with care)
 - Traits: precise, dry-funny, incorruptible about the list; terrified of silence.
 
+## Sam Prentice - the First Face
+
+- **Who**: the Day-1 companion, on stage from the opening scene - a snowplow driver who kept plowing a week after the county stopped paying, because the alternative was thinking.
+- **Drives**: keep one road open, any road, to anywhere - a man who needs the town to stay connected more than he needs it to stay fed; find out whether his sister's family made the evacuation buses.
+- **Doctrine**: work first, grieve while working; never asks anyone to do a thing he is not already doing.
+- **Limit**: cannot make the triage call - will burn the last fuel keeping the wrong person warm and know it while doing it. Somebody else has to be the one who says no.
+- **Voice**: talks to machines kindly and people bluntly; weather reports as emotional register.
+
+## Oskari Kettunen - the Fence's Price
+
+- **Who**: Marta's younger brother, the Yard's best welder and its worst secret-keeper - the weakness noted on Marta's own sheet, walking around.
+- **Drives**: be worth the fence he lives behind; keep Marta from finding out what he already traded to the Tollmen (three fence-panel specs, for insulin that turned out not to be needed).
+- **Limit**: folds under sustained direct questioning by anyone who has fed him.
+- **Voice**: overexplains welds, underexplains everything else.
+
 ## Doc Halloran - the Needle
 
 - 58, large-animal veterinarian, Iron Lake's only "doctor." Drinks exactly two fingers a night, no more, and hates that people need him too much for him to stop entirely.

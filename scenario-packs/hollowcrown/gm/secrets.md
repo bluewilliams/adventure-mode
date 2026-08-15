@@ -18,7 +18,7 @@ The quickening weakens the seals (the doors do not open; they FAIL), stirs the H
 
 ## The Emberheart clock (the campaign's deep timer)
 
-Track as a hidden campaign clock, ~90 in-game days at open: **[quickening 0/9]**, one tick per ~10 days or per major provocation (a death in the Gravemouth, marrow burned, the Shard damaged). At full: the Heart reaches waking rhythm, the mountains shrug, the Deeproads collapse or worse. This clock is meant to LOOM, not to fire; play should end it early, one way or another. The Archive Under Glass (below) is where the player can learn the real number.
+Track as a hidden campaign clock, ~90 in-game days at open: **[quickening 0/9]**, one tick per ~10 days or per major provocation (a death in the Gravemouth, marrow burned, the Shard damaged). At full: the Heart reaches waking rhythm, the mountains shrug, the Deeproads collapse or worse. This clock is meant to LOOM, not to fire; play should end it early, one way or another - and if the campaign is pacing slower than the season, stretch the tick rate rather than let the date win: the loom is the point, the arithmetic serves it. The Archive Under Glass (below) is where the player can learn the real number.
 
 ## The Hollowed and the heralds
 

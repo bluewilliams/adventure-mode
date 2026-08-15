@@ -24,3 +24,10 @@
 ## The Starlite Lounge (neutral ground, rumor tier)
 
 - Denise Alvarez's bar sits ON the line between territories and has stayed neutral for eleven years because everyone needs one room where nobody dies. GM truth: Denise pays no one, is protected by no one, and has kept the peace with information triage - she defuses collisions before they happen by deciding who hears what, when. She knows more than any capo. Making her an ally is slow; making her an enemy is fatal in ways nobody can trace.
+
+## Day-0 stances (who loves whom, before the player exists)
+
+- Marchetti family: holds an uneasy, decades-old truce with the Doyles (docks split, fragile because of Brendan's shame-driven ambition); treats BRICKWALL as recurring weather, not yet understood as existential.
+- Doyle crew: nurses inherited hatred of the Marchettis (the knee-taking); distrusts Reyes as one more outside power taxing the docks, unaware the heroin money already ties their fate to the family's; tolerates the Starlite as neutral ground.
+- Operation BRICKWALL: RICO-prioritizes the Marchetti administration; treats the Doyles as secondary leverage, not a primary target; extends professional respect (never pressure) to Denise Alvarez.
+- The Starlite Lounge: welcomes anyone who leaves the life at the door, made man or Doyle alike; reserves her sharpest, quietest attention for Petey, whom she has known too long not to notice unraveling.

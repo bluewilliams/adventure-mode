@@ -22,7 +22,7 @@ Three questions, asked as the player character walks Adler Ave toward the club a
 
 Aptitudes: assign the 4/3/3/2/2 spread from the answers (what they bring the family places the 4). Reflect as fiction, never numbers; Santoro's crew will discover what the player is good at the same way the player does, by watching.
 
-Starting inventory: decent clothes, a watch worth pawning, $340 cash, keys to a borrowed Monte Carlo (Uncle Gio's), and one meaningful personal object (player defines; it will matter). A gun ONLY if the player asks for one, with the house-rule weight stated in-fiction by whoever provides it.
+Starting inventory: decent clothes, a watch worth pawning, $340 cash, keys to a borrowed Monte Carlo (Uncle Gio's), and one meaningful personal object (player defines; it will matter). The Monte Carlo is a planted promise: Gio lends nothing without a reason, and the day the player learns what the car was FOR is a late-campaign reveal - keep the loan alive, dated, on the record. A gun ONLY if the player asks for one, with the house-rule weight stated in-fiction by whoever provides it.
 
 Starting contacts: seed player-facing `NPCs/` notes for Petey, Santoro, Denise, Frank Bell, and Uncle Gio (brief-level facts only). Petey is available as an early companion; his Arc 1 makes that closeness a loaded gun.
 
@@ -36,4 +36,4 @@ Starting STANDING: **connected** (known to the crew, claimed by nobody, worth no
 - Sal: concealing the tremor; Adele adjusting the will
 - Nicky: two payments deep into Montreal money, spending ahead of his crown
 - Doyles: Colm's leash fraying; Brendan watching the South Side for weakness
-- HEAT: 1 of 6 (a quiet year, about to end)
+- HEAT: 1 of 6 (a quiet year, about to end). Seed it as a clock line in GM/Threads.md at instantiation - HEAT is board state, never memory.

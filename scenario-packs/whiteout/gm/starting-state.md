@@ -22,7 +22,7 @@ Three questions, asked as memories surfacing in the cold dark before the stove d
 
 Aptitudes: assign the 4/3/3/2/2 spread from the answers (who they WERE places the 4; how they survived places the 3s). Do not show the numbers; reflect them back as fiction ("your hands know engines" beats "Finesse 4").
 
-Starting inventory: winter clothes (good), one trade tool, one improvised or true weapon (player's call within fiction; ammo counted if firearm, single digits), half a day of food, matches, and one meaningful personal object (player defines; it will matter).
+Starting inventory: winter clothes (good), one trade tool, one improvised or true weapon (player's call within fiction; ammo counted if firearm, single digits), half a day of food, matches, and one meaningful personal object (player defines; it will matter). That object is a planted promise on a POST-THAW horizon: whatever it means now, the campaign's last act should find its meaning changed by everything between - keep it on the record, dated, from Day 1.
 
 ## Board state at day 36
 

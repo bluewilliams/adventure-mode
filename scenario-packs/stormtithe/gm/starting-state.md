@@ -47,7 +47,7 @@ Cold open in the furrow: the plow jarring against the door-stone, oxen restive, 
 
 ## Day-0 board state (instantiate faction files per factions.md)
 
-- Clocks: Vosk rides at Raidtide [1/4]; the Ittra web [3/10]; the Rite of Worth [2/12]; Mool breaks [2/6]; Sarn runs out of time [2/8]; hidden: the escrow thins [0/?] (advances per freed name; the player fills it blind); the great Reckoning [hidden, years - the Tally holds the true date].
+- Clocks: Vosk rides at Raidtide [1/4] (already primed: Ragnvald scouted the claim twice before Sowing - the yearly reset never zeroes a raid in motion); the Ittra web [3/10]; the Rite of Worth [2/12]; Mool breaks [2/6]; Sarn runs out of time [2/8]; hidden: the escrow thins [0/?] (advances per freed name; the player fills it blind); the great Reckoning [hidden, years - the Tally holds the true date].
 - Blind Aud's doctrine (Day 0, standing): `any settlement ends me | context: all crown and Silence counsel | src: the surety clause`.
 - Weather: thaw-mud; the passes close behind the clan in two weeks (nobody else is coming this year - and nobody can easily leave).
 - The rooks have already priced the new clan's arrival as gossip and sold it twice.

@@ -27,3 +27,10 @@ Each faction has an agenda, resources, and a doctrine. They act on the timeline 
 
 - **Who/What**: survivors whisper about a house north of Birch Ridge where the lights are always on and nobody who knocks comes back. GM truth: a retired wildlife biologist, **Dr. Lena Marsh**, running generator-heated greenhouse experiments on frozen infected tissue. She is 80% of the way to understanding the thaw problem and completely out of her depth on the human threat. She shoots trespassers because the last group she let in stole her seed stock.
 - **Purpose**: the pack's knowledge endgame. Whoever connects Marsh's thaw research to the Highway 53 horde gets the spring countdown in hard numbers, and the moral weight of deciding who else learns it.
+
+## Day-0 stances (who loves whom, before the player exists)
+
+- Tollmen: tolerate the Congregation as a disarmed, non-resisting tax base (Kittredge reads Voss's flock as sheep); have quietly scouted the Yard's fence for a toll not yet announced; extend no love to anyone but keep every promise and every threat made.
+- Congregation: publicly welcomes all; privately Voss fears the Tollmen (his insulin runs through their hands) and preaches peace with them from necessity, not virtue; reads the Yard's self-sufficiency as a quiet rebuke of his doctrine of dependency.
+- Kettunen's Yard: trusts nobody until they have bled for the fence; watches the Tollmen specifically since the scouting incident; keeps a wary, transactional distance from the Congregation - respects the shelter, refuses the confession-for-safety terms.
+- The Quiet House (Dr. Marsh): trusts no faction and has fired on trespassers from all three; would trade her research for genuine scientific respect long before food, guns, or god.

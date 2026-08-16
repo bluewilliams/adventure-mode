@@ -24,6 +24,15 @@ Aptitudes: assign the 4/3/3/2/2 spread from the answers (who they WERE places th
 
 Starting inventory: winter clothes (good), one trade tool, one improvised or true weapon (player's call within fiction; ammo counted if firearm, single digits), half a day of food, matches, and one meaningful personal object (player defines; it will matter). That object is a planted promise on a POST-THAW horizon: whatever it means now, the campaign's last act should find its meaning changed by everything between - keep it on the record, dated, from Day 1.
 
+**REGISTER THE LARDER (Day 0, non-optional)**: this is a counted-survival world, and the quartermaster burns only what is registered. At seeding, write the opening counts into `State.md` under `## Resources`, tagged so time itself consumes them:
+
+- food: 0.5 days (burns daily)
+- heat fuel (stove/wood/oil, whatever the shelter runs on): {set from the opening shelter, 2-4 days} (burns daily)
+- ammo, by weapon: {single digits, if armed}
+- matches: {count}
+
+Adjust labels and numbers to the fiction, never skip the registration: an unregistered larder means time passes and nothing runs out, and the cold quietly stops mattering. Every resupply is arithmetic on these lines; zero ARRIVES as a scene.
+
 ## Board state at day 36
 
 - Tollmen: census-painting Iron Lake's core blocks; the struck circle on the store is queued for enforcement within ~2 days

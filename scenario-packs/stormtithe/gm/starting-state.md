@@ -51,3 +51,7 @@ Cold open in the furrow: the plow jarring against the door-stone, oxen restive, 
 - Blind Aud's doctrine (Day 0, standing): `any settlement ends me | context: all crown and Silence counsel | src: the surety clause`.
 - Weather: thaw-mud; the passes close behind the clan in two weeks (nobody else is coming this year - and nobody can easily leave).
 - The rooks have already priced the new clan's arrival as gossip and sold it twice.
+
+## Register the stores (Day 0, non-optional)
+
+A counted world burns only what is registered: at seeding, write the clan's opening stores into `State.md` under `## Resources` - hay-days for the byres tagged `(burns daily)`, the grain and salt counts, cattle by head, iron by the ingot - at the numbers the premise deals. The hay-day line is the winter's real clock: when it burns to zero, the cattle start dying, and that arrives as a scene. Every tithe, raid, and trade is arithmetic on these lines.

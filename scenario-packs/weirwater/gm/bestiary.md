@@ -1,0 +1,60 @@
+# WEIRWATER - Bestiary and the Reading (GM)
+
+SPOILERS THROUGHOUT. Natures reach the player only through study beats: tracks, remains, witnesses, vigils, lore, and the Reading itself. This file is the answer key; the game is the player earning it.
+
+## How the study system runs (the pack's engine)
+
+1. **Every contract opens a study clock** in State.md the beat it is taken: `- reading: {creature or case name} [0/4] - the nature is known`. Size 4 by default; 6 for elder wrought and anything Muster-born.
+2. **Honest investigation fills it.** One tick per beat of real study that lands something true: physical sign (tracks, kill-pattern, remains), testimony (witnesses lie in the direction of their fear - that is still information), lore (Wakehouse registers, guild ledgers, Tally's ballad-memory, Sjunna's trade knowledge), vigil (watching the thing without engaging), and the READING (worth two ticks, costs the Toll if pushed deep - the player chooses the spend).
+3. **Study prices the confrontation.** Unstudied (clock 0-1): the fiction opposes at its worst - Desperate-band work, and the GM narrates WHY (it is faster than the stories said, the fire does not bother it, it knows the fen and you do not). Partial (2-3): Hard band; the shape is known, the nature is not. Full (4+): the true approach is Moderate or better, the BREAK is known, and the TERMS (if any) are on the table. Never gift the discount: the bands follow what the record shows was learned.
+4. **Terms are a scene, not a transaction.** Settling terms means doing the thing - the burial, the payment, the promise - in fiction, usually with its own cost or complication. Then the knot unties ON SCREEN: the pack's signature image, each one staged fresh (the fenwight walking backward into still water; the latch-child leaving small footprints out the door it was never allowed to use).
+5. **Coin follows the ledger, not the drama**: kill-price on the contract, terms usually pay less or nothing from the client (a farmer will pay for a dead monster; explaining that his drowned brother needed naming is harder). The MARK pays the difference, in the long game.
+6. **The wrought are not a faction with a board** - they are weather with causes. But Muster-born cases tie to the Wake-Child arc, and the GM should let the bestiary's patterns whisper the arcs: the player who notices that every case this season is war-made is reading the campaign itself. That is intended.
+
+## Guild taxonomy (LEARNED; folk names vary by village)
+
+Guild classes: **fen-wrought** (water and drowned), **grief-wrought** (made by mourning), **oath-wrought** (made by promises), **hunger-wrought** (made by famine and want), **war-wrought** (Muster-born; the new class, the bad one), **elder kind** (the Quiet Neighbors; not made by anyone living, and mostly not for killing at all).
+
+Each entry: SIGN (what investigation finds), CAUSE (what made it), TERMS (if any), BREAK (what works when steel is the answer), PRICE (typical contract coin in silver marks; a hunter's month costs ~8).
+
+---
+
+### Fenwight (fen-wrought)
+Drowned dead denied rites, walking the reed-line at dusk, water-logged and patient. SIGN: bare footprints filling with water on dry ground; reeds knotted in pairs; dogs face the water and will not bark. CAUSE: a specific drowned body, unnamed and unweighted. TERMS: recover the body, name it aloud, bury it with river-stone and a night's wake - it will lead you to itself if approached at dusk without iron. BREAK: it must be held OUT of water at the last - it reknits in the shallows; fire is useless, cold iron and daylight are not. PRICE: 6-10. The March's commonest case and the guild's teaching example: pitchforks make two of these for every one they end.
+
+### Weeping bride (grief-wrought)
+A murdered or forsworn bride, risen where her grief pooled. Sings; the song pulls the guilty and the gallant alike into the water or the well. SIGN: wedding-cloth fibers where no wedding was; wells that echo a second voice; men in the village who will not meet your eyes. CAUSE: her death was called an accident and someone present knows better. TERMS: the truth said aloud by the one who owes it, at the place of death, before witnesses - she does not want flowers, she wants the RECORD corrected. BREAK: she is bound to her cloth; find and burn the dress or veil, and she can be fought as flesh. Doing this without offering terms first is butcher's-grain work and the village will know. PRICE: 12-18, and the client is very often the CAUSE - the pack's cleanest moral trap, use it early.
+
+### Latch-child (grief-wrought)
+A dead child grieved past the turning of the year without the wake-door ever opened: it comes home. Not violent - worse. It stands at the latch at night and knocks with the family starving themselves to feed a plate nobody eats. SIGN: food waste in a hungry house; a bolted door with scratch-marks INSIDE; parents lying in opposite directions. CAUSE: the wake was never held; the door was never opened. TERMS (always - this one has no break worth having): hold the wake six years late, name the child, open the door at dusk and let the house weep it through. BREAK: none the guild will teach. Steel finds nothing there but the family's memory of you swinging at their child. PRICE: nothing you will feel good about taking. Blacklade doctrine: do these free, and let the Mark carry it.
+
+### Barrow-groom (oath-wrought)
+A betrothal or blood-oath broken against the dead: the wronged party rises to collect, patient as paper, on the oath's anniversary. SIGN: gifts returned to a doorstep, ruined by grave-damp; the smell of the betrothal flowers out of season. CAUSE: a specific oath, provable in the Wakehouse registers. TERMS: the oath fulfilled in substance or formally released by kin at the barrow with the Wake officiating - it accepts substitution arguments if they are honest (the pack's negotiation showcase; play it like a court). BREAK: bound to the anniversary - miss its night and it waits a year; on the night itself it is strong as its grievance and iron means little. PRICE: 15-25; wealthy clients, old families, and the registers usually incriminate somebody.
+
+### Rye-mother (hunger-wrought)
+The famine winters' legacy: a field where someone was buried hungry - or where grain was hoarded while neighbors starved - grows one thing well ever after, and takes a tithe of whoever reaps it. SIGN: one field lush amid poor ones; harvesters with bound left hands (the tithe takes fingers); a village that eats well and does not talk about it. CAUSE: hunger done to someone, in that soil. TERMS: the field given fallow for a full year with its yield's worth distributed to the hungry - the village will fight this harder than they would fight the monster. BREAK: reap it whole in one thin evening, every stalk, and burn the last sheaf with the hidden bones inside it; expensive, dangerous, and it works. PRICE: 10-16 from a village purse, paid grudgingly either way.
+
+### Hollow soldier (war-wrought)
+Muster-born: a levy the working raised that did not fall when the working broke. Still under orders nobody living gave. Walks patrol-lines, holds bridges, kills anything that fails a challenge no one can answer anymore. SIGN: patrol-regular kill sites; wounds from a issued weapon-type in unissued hands; a route mappable to a war-year deployment. CAUSE: the Muster - which means individually it has none. TERMS: NONE as such (its knot is the war's, not its own) - but it still answers FORM: correct countersigns from its war-year, a superior's insignia, a written stand-down order in the right hand. Guild doctrine calls these "paper terms": they do not settle it, they let you pass, or let you close. BREAK: destroy the skull's memory of orders (the guild's blunt phrasing); it does not tire, it does not feint, and it has ten winters of drill on any living swordsman - this is THE fight you do not take unstudied. PRICE: 20-30; garrisons pay best and ask least. Every hollow soldier case feeds the Wake-Child arc's pattern.
+
+### Tatterwolf pack (war-wrought)
+War-dog packs and worse that fed on ten winters of fields; not risen dead but MADE mean by the same seam - too knowing, too coordinated, and led by something that was never a dog. SIGN: kills that select the armed man first; watch-rotations; the big prints that only appear where the pack was refused. CAUSE: aggregate - the war fed them, the seam sharpened them. TERMS: none. This is the bestiary's honest reminder that some knots are only rope. BREAK: kill the leader and the pack breaks the same night; the leader will know which one you are and hunt YOU. PRICE: 8-14, more if the roads are closed.
+
+### Night-mare (grief-wrought, rare)
+It feeds where a sleeper's grief is richest, riding dreams until the sleeper stops waking. Whole households go quiet on their feet. SIGN: households sleeping to noon and thinner every week; horses lathered in locked stables at dawn (it wears them to travel); no marks at all - testimony is everything here. CAUSE: one sleeper's unconfessed grief anchors it; the rest is grazing. TERMS: the anchor-grief spoken to a living witness - it starves the same hour. BREAK: it can be trapped in the dream itself: a hunter who deep-Reads a riddled sleeper can enter and cut it there (two Toll payments minimum, among the costliest Readings in the pack; stage it as the surreal set-piece it deserves). PRICE: 18-30 and rising with the household's rank.
+
+### Moss-hag (elder kind)
+A Quiet Neighbor of the western moss, old as the treaty-stones and party to half of them. Not a contract: a LANDLORD. Keeps her bounds, keeps her bargains to the letter and only the letter, remembers every debt the March ever owed her kind. SIGN: you do not investigate her; you are announced. CAUSE: none living. TERMS: everything about her is terms - safe passage, lost travelers returned, old workings recalled, questions answered true (she pre-dates the war and remembers Ordane as a POLITE YOUNG MAN WHO ASKED GOOD QUESTIONS - a key Author-arc source, at a price that is never coin and always exact). BREAK: guild doctrine, verbatim: "No." PRICE: reversed - you pay her. The pack's showcase that mind-over-sword is a spectrum with awe at the far end.
+
+### The unnamed (war-wrought, arc-bound)
+Wherever the Wake-Child has passed: wrought that rise WRONG - fenwights with no body to find, brides no register ever married, soldiers from no war-year. Terms fail because their causes are BORROWED, copies without originals. SIGN: a nature that reads clean but settles nothing; terms performed to the letter that do not untie. CAUSE: the Muster's seam, walking (see arcs: the Wake-Child). TERMS/BREAK: locally none - each is a symptom. The first one the player meets should be a fenwight case done RIGHT that fails anyway: the moment the pack's rules break is the moment the campaign's true question stands up. Do not spend it before the study system has taught the player to trust the rules. PRICE: whatever was posted - and the client's fear when it does not stay settled.
+
+---
+
+## Running monsters at the table
+
+- **Dread is accrual**: the sign before the shape, the shape before the name, the name before the fight. A monster fully seen in scene one is a costume.
+- **Witnesses are the best instrument and the worst**: everyone in the March half-knows the rules, grief edits memory, and the guilty steer hunters. Contradictions between testimony and physical sign are CONTENT, not errors.
+- **The wrought keep the world's physics**: wounds bill on the condition ladder, weather matters, iron is heavy, fens at night are lethal to ordinary people for ordinary reasons. Half the lethality dial is just the March itself.
+- **Never let TERMS become a button**: they are scenes with stakes, they can be performed wrong, and some clients will pay MORE for steel because terms indict them. The moral texture is the game.
+- **New wrought are yours to author** by the grammar: SIGN, CAUSE, TERMS, BREAK, PRICE - and a knot the March itself could have tied. Author them the way the war would: out of what people did to each other and did not bury.
